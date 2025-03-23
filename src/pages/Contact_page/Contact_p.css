@@ -17,6 +17,9 @@ body {
     
   }
 
+  .link_name{
+    margin-top:20px
+  }
 
   header {
   display:block;

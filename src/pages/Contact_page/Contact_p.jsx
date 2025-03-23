@@ -37,7 +37,11 @@ const Contact_p = () => {
   };
 
   return (
+    <>
+    
+    <div className="contact_sec">
     <div className="main">
+    <div className="link_name">/Team</div>
       <header>
         <img
           src="https://aiclub-oist.web.app/static/media/ailogo.5b25c3a8e4e6b9c095c7.png"
@@ -140,6 +144,8 @@ const Contact_p = () => {
         {result && <div id="result" dangerouslySetInnerHTML={{ __html: result }} />}
       </div>
     </div>
+    </div>
+    </>
   );
 };
 
