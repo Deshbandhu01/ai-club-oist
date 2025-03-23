@@ -22,12 +22,12 @@ const Navbar = () => {
       </div>
 
       {/* Right-hand side: Menu items */}
-      <div className={`navbar-right ${isOpen ? 'open' : ''}`}>
+      <div className= {`navbar-right  ${isOpen ? 'open' : ''}`}>
         <ul>
-          <li><Link to="/events">Events</Link></li>
-          <li><Link to="/team">Team</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
-          <li><Link to="/blog">Blog</Link></li>
+          <li ><Link to="/events" className="uno"><i class="fa-solid fa-calendar-check"></i>Events</Link></li>
+          <li ><Link to="/team" className="uno"><i class="fa-solid fa-users"></i>Team</Link></li>
+          <li ><Link to="/contact" className="uno"><i class="fa-solid fa-phone"></i>Contact</Link></li>
+          <li ><Link to="/blog" className="uno"><i class="fa-solid fa-message"></i>Blog</Link></li>
         </ul>
       </div>
 

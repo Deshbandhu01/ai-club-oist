@@ -14,10 +14,13 @@
 
 .fig{
     width:30vw;
-    left:10px;
+    position:relative;
+    left:5%;
 
 }
-
+.fig h1{
+    color:rgb(125, 211, 98)
+}
 .box{
     width:70vw;
     height:81vh;

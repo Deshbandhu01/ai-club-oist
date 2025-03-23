@@ -26,12 +26,18 @@
     list-style: none;
     display: flex;
     margin: 0;
+  
   }
   
   .navbar-right ul li {
     margin-left: 20px;
   }
   
+  .uno{
+    display:flex;
+    gap:6%;
+  }
+
   .navbar-right ul li a {
     color: white;
     text-decoration: none;
