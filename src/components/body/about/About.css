@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #0a192f;
+  color: #e6f1ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh; */
+}
+
+.main-container{
+  
+  /* height:60vh; */
+  width:100vb;
+  margin:auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Main Content Layout */
+.content {
+  display: flex;
+  align-items: flex-start; 
+  justify-content: space-between;
+  /* width: 50vb; */
+  /* max-width: 1200px; */
+  gap: 50px;
+  /* margin:auto; */
+  margin-top:20px;
+}
+
+/* Left Section: About AI Club */
+.about-section {
+  width: 45%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}
+
+/* About Us Heading */
+.about-heading {
+  font-size: 3rem;
+  color: #7eb8ed;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px rgba(126, 184, 237, 0.8);
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.about-heading::before {
+  content: "🤖";
+  font-size: 2.5rem;
+}
+
+/* Flip Card */
+.flip-card {
+  position: relative;
+  width: 320px;
+  height: 290px;
+  perspective: 1000px;
+  /* margin-left: 50px;  */
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Flip Card Front */
+.flip-card-front {
+  background: #7eb8ed;
+  color: #0a192f;
+  font-weight: bold;
+}
+
+/* Flip Card Back */
+.flip-card-back {
+  background: #102a43;
+  color: #e6f1ff;
+  transform: rotateY(180deg);
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Contact Button */
+.contact-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #7eb8ed;
+  color: #0a192f;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  align-self: center;
+}
+
+.contact-btn:hover {
+  background-color: #5a9ed8;
+}
+
+.features-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  /* width: 50%; */
+  align-items: center;
+  margin:auto;
+}
+
+.feature-card {
+  background: rgba(126, 184, 237, 0.2);
+  padding: 15px;
+  border-radius: 8px;
+  text-align: left;
+  font-weight: bold;
+  transition: 0.3s;
+  border-left: 4px solid #7eb8ed;
+  box-shadow: 0 4px 6px rgba(126, 184, 237, 0.2);
+  width:40vb
+}
+
+.feature-card:hover {
+  background: #7eb8ed;
+  color: #0a192f;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(126, 184, 237, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  .main-container{
+    height:150vh;
+  }
+  
+  
+  .content {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .about-section {
+    width: 100%;
+
+    
+    text-align: center;
+    align-items: center;
+  }
+
+  .about-heading {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .flip-card {
+    margin-left: 0; 
+  }
+
+  .features-container {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+}

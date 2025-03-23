@@ -1,0 +1,17 @@
+*{
+    background-color: transparent;
+}
+/* Ensure no global styles interfere */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Example font, set default font */
+}
+
+.navbar, .nav-left, .nav-right, a {
+    text-transform: none !important; /* Force no uppercase transformation */
+}

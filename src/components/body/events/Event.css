@@ -1,0 +1,102 @@
+/* General styles for the resources section */
+.event-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    width:96%;
+    margin: 10px auto;
+    /* margin-top:100px; */
+  }
+  
+  .event-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    /* margin: 10px auto; */
+  }
+  
+  .event-subtitle {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Grid container to hold 
+  
+  items */
+  .event-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 10px;
+
+
+  }
+  
+  /* Individual resource card */
+  .event-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover effect for resource item */
+  .event-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Image section of the resource card */
+  .event-image {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+  }
+  
+  .event-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+  }
+  
+  /* Resource card information section */
+  .event-info {
+    padding: 15px;
+  }
+  
+  .event-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    color: #333;
+  }
+  
+  .event-link {
+    text-decoration: none;
+    display: block;
+  }
+
+  .event-bar{
+    display: flex;flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin:auto;
+    background-color: transparent;
+  }
+  .event-bar p{
+    margin:10px;
+  }
+  
+  .ai-tit{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color:blue;
+    background-color: aqua;
+    width:250px;
+    margin:auto;
+    border-radius:20px
+  }

@@ -1,0 +1,184 @@
+/* General Styling for Core Team Section */
+.core-team-section {
+    padding: 60px 0;
+    background-color: #f7f7f7;
+    /* padding-top:100vh; */
+  }
+.core-d h3{ 
+  color:black
+}
+
+.core-d p{ 
+  color:black
+}
+
+
+
+
+  .core-team-container {
+    /* max-width: 1200px; */
+    max-width:96%;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #6c584c;
+    border-radius:10px
+  }
+  
+  .core-team-heading {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .core-team-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    margin-top:10px
+  }
+  
+  .core-team-description {
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  /* Grid Layout for Team Members */
+  .core-team-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin:10px
+  }
+  
+  .core-team-member {
+    background-color: #edf6f9;
+    /* border-radius: 8px; */
+    height:40vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .core-team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .core-team-image {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .core-team-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .core-team-details {
+    text-align: center;
+    height:10vh
+  }
+  
+  .core-team-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    /* height:2vh; */
+    margin:3px;
+  }
+  
+  .core-team-role {
+    font-size: 18px;
+    font-weight: normal;
+    color: blue;
+    /* height:2vh; */
+    margin:3px;
+  }
+  
+  .core-team-bio {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .core-team-button {
+    display: inline-block;
+    background-color: #0073b1;
+    color: white;
+    padding: 12px 30px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 40px;
+    transition: background-color 0.3s ease;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:10px
+  }
+  
+  .core-team-button:hover {
+    background-color: #005a8b;
+  }
+  
+
+  .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .prof{
+    gap:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: large;
+    color:blue
+    /* color:transparent */
+  }
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .core-team-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .core-team-title {
+      font-size: 28px;
+    }
+  
+    .core-team-description {
+      font-size: 16px;
+    }
+  
+    .core-team-button {
+      font-size: 16px;
+    }
+  }
+  
+
+  .tech-d {
+    background-color: white;
+    color:black
+  }
+
+  .tech-d h3{ 
+    color:black
+  }
+  
+  .tech-d p{ 
+    color:black
+  }
+  

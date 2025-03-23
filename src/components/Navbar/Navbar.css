@@ -1,0 +1,81 @@
+/* Basic styling for navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width:85%;
+    margin:auto;
+    top:10px;
+    height:7vh;
+    border-radius:30px;
+    text-align: center;
+
+  }
+  
+  .navbar-left .logo img {
+    height: 40px;
+  }
+  
+  .navbar-right ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+  }
+  
+  .navbar-right ul li {
+    margin-left: 20px;
+  }
+  
+  .navbar-right ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .hamburger .bar {
+    width: 25px;
+    height: 3px;
+    margin: 4px 0;
+    background-color: white;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar-right {
+      display: none;
+    }
+  
+    .navbar-right.open {
+      display: block;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #333;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .navbar-right ul {
+      flex-direction: column;
+      margin-top: 20px;
+    }
+  
+    .navbar-right ul li {
+      margin: 15px 0;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+  }
+  

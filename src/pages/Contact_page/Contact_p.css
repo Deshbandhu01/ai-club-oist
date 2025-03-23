@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+  /*background-image: url('https://almashines.s3.dualstack.ap-southeast-1.amazonaws.com/assets/images/cover/456.jpg?r=1'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  margin: 0;
+  padding: 0;*/
+
+
+    
+  }
+
+
+  header {
+  display:block;
+  text-align: center;
+  gap:10px;
+ justify-content:flex-start;
+
+  flex-direction: column;
+  padding: 20px 0;
+  margin-top: 50px;
+
+}
+
+.logo {
+ 
+  width: 60px; 
+  height: auto;
+  margin-bottom: 5px; 
+}
+
+
+
+  
+  .container {
+    background-color: #ffffff;
+    padding: 20px;
+    height: 600px;
+    width:600px;
+    margin:auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input, select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  #result {
+    margin-top: 20px;
+    text-align: center;
+    color: green;
+  }
+/* Responsive Design */
+@media screen and (max-width: 1000px) {
+      .container {
+        width: 100%;
+        padding: 10px;
+      }
+
+      input, select, button {
+        width: 90%;
+      }
+
+      header h1 {
+        font-size: 1.5em;
+      }
+
+  }
