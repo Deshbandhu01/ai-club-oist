@@ -11,14 +11,22 @@ body {
   background-repeat: no-repeat; 
   background-attachment: fixed; 
   margin: 0;
-  padding: 0;*/
+  padding: 0;*/   
+  }
 
-
-    
+  .contact_sec{
+    width:100vw;
   }
 
   .link_name{
-    margin-top:20px
+    margin-top:20px;
+    /* background-color: #28a745; */
+    color:grey;
+    background-color: aquamarine;
+    display:inline-block;
+    padding:5px;
+    border-radius: 0px 15px 15px 0px  ; 
+    border: 2px solid rgb(4, 28, 20)
   }
 
   header {
@@ -29,8 +37,15 @@ body {
 
   flex-direction: column;
   padding: 20px 0;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 
+}
+
+.conc{
+  margin-left:30px;
+
+  /* width:96%; */
+  /* margin:auto; */
 }
 
 .logo {

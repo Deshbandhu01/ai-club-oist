@@ -1,8 +1,10 @@
 /* General Styling for Core Team Section */
 .core-team-section {
-    padding: 60px 0;
+    /* padding: 60px 0; */
     background-color: #f7f7f7;
     /* padding-top:100vh; */
+    width:96%;
+    margin:auto;
   }
 .core-d h3{ 
   color:black
@@ -12,7 +14,16 @@
   color:black
 }
 
-
+.link_name{
+  margin-top:20px;
+  /* background-color: #28a745; */
+  color:grey;
+  background-color: aquamarine;
+  display:inline-block;
+  padding:5px;
+  border-radius: 0px 15px 15px 0px  ; 
+  border: 2px solid rgb(4, 28, 20)
+}
 
 
   .core-team-container {

@@ -41,6 +41,7 @@ const Contact_p = () => {
     
     <div className="contact_sec">
     <div className="main">
+    <div className="conc">
     <div className="link_name">/Team</div>
       <header>
         <img
@@ -142,6 +143,7 @@ const Contact_p = () => {
 
         {/* Display the result message */}
         {result && <div id="result" dangerouslySetInnerHTML={{ __html: result }} />}
+        </div>
       </div>
     </div>
     </div>

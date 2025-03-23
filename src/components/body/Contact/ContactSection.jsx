@@ -7,14 +7,10 @@ const ContactSection = () => {
   return (
     <>
     <section className="contact-section">
-      <div className="container">
+      <div className="container_C">
         <div className="grid-container">
           {/* Left section with Video Background */}
           <div className="contact-info">
-            <video className="video-background" autoPlay loop muted>
-              <source src="contact_Bg.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
             <div className="contact-content">
               <h3 className="contact-heading">Contact Information</h3>
               <p className="contact-description">
@@ -22,11 +18,11 @@ const ContactSection = () => {
               </p>
               <div className="contact-item">
                 <span className="contact-icon"><i className="fas fa-phone"></i></span>
-                <span className="contact-details">(+91) 6268816374 (Satvik)</span>
+                <span className="contact-details">(+91) 8109014548 (Deshbandhu)</span>
               </div>
               <div className="contact-item">
                 <span className="contact-icon"><i className="fas fa-envelope"></i></span>
-                <span className="contact-details">aiclub@oriental.ac.in</span>
+                <span className="contact-details" >aiclub@oriental.ac.in</span>
               </div>
               <div className="contact-item">
                 <span className="contact-icon"><i className="fas fa-map-marker-alt"></i></span>

@@ -19,7 +19,13 @@
 
 }
 .fig h1{
-    color:rgb(125, 211, 98)
+    color:rgb(125, 211, 98);
+    font-size:5vmin;
+}
+
+.fig p{
+    color:rgb(185, 186, 186);
+    font-size:3vmin;
 }
 .box{
     width:70vw;
