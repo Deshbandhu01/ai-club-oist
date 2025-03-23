@@ -1,5 +1,6 @@
 {
   "name": "ai-club-oist",
+  "homepage": "https://Deshbandhu01.github.io/ai-club-oist",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,12 +8,16 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d dist" 
+
   },
   "dependencies": {
     "@splinetool/react-spline": "^4.0.0",
     "@splinetool/runtime": "^1.9.73",
     "cssproperties": "^0.0.1",
+    "gh-pages": "^6.3.0",
     "motion": "^12.4.10",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
