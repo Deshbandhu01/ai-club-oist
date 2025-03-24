@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar/Navbar.jsx";
 import Event_p from "./pages/Event_page/Event_p.jsx";
 import Team_p from "./pages/Team_page/Team_p.jsx";
 import Contact_p from "./pages/Contact_page/Contact_p.jsx";
-import Home from "./home.jsx";
+import Home from "./Home.jsx";
 function App() {
   return(
     <> 
