@@ -70,7 +70,7 @@ body {
 
 .blog-card img {
     width: 100%;
-    height: auto;
+    height: 230px;
     border-radius: 10px;
 }
 
@@ -98,4 +98,3 @@ body {
 .large {
     grid-column: span 2;
 }
-

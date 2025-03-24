@@ -5,6 +5,7 @@ import { asset } from '../../assets/asset';
 const Event_p= () => {
   return (
     <>
+    <div className="ki">
     <div className="link_name">/Event</div>
     <div className="eve_con">
     <div className="event-section">
@@ -64,6 +65,7 @@ const Event_p= () => {
           </a>
         </div>
       </div>
+    </div>
     </div>
     </div>
     </>

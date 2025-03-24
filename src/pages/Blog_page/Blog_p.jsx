@@ -5,6 +5,7 @@ import { asset } from '../../assets/asset';
 function Blog_p(){
     return(
         <>
+        <div className="bb">
             <div className="link_name">/Team</div>
             <section className="blog-section">
                 <h2>Check our Latest Blogposts</h2><br />
@@ -51,6 +52,7 @@ function Blog_p(){
                     </div>
                 </div>
             </section>
+            </div>
         </>
     )
 }

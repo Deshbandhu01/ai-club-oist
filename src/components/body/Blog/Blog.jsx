@@ -11,7 +11,7 @@ const BlogSection = () => {
         <div className="blog-card">
           <img 
             src="https://editorialelearning.com/wp-content/uploads/2023/01/deep-learning.jpg" 
-            alt="deeplearning-roadmap"
+            alt="deeplearning-roadmap" className="Images"
           />
           <h3>Deep learning Roadmap</h3>
           <p>The world has changed recently, becoming faster and wiser ...</p>
@@ -30,7 +30,7 @@ const BlogSection = () => {
 
         <div className="blog-card">
           <img 
-            src={asset.cypher30} 
+            src={asset.Cypher} 
             alt="Cypher 3.0 Guide" class="cypher"
           />
           <h3>Cypher 3.0 Guide</h3>

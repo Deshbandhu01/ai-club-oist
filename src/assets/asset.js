@@ -9,7 +9,10 @@ import Edge_ai_2023 from './Edge_ai_2023.png'
 import Logo_design_comp from './Logo_design_comp.jpg'
 import TEDx_comp from './TEDx_comp.jpg'
 import Cypher_30_win from'./Cypher_30_win.jpg'
-
+import Taru from './Taru.jpg'
+import Utkarsh from "./Utkarsh.jpg"
+import Ishan from "./Ishan.jpg" 
+import Cypher from "./Cypher.jpg"
 
 export const asset={
     logo,
@@ -22,7 +25,11 @@ export const asset={
     Edge_ai_2023,
     Logo_design_comp,
     TEDx_comp,
-    Cypher_30_win
+    Cypher_30_win,
+    Taru,
+    Ishan,
+    Utkarsh,
+    Cypher
 
 
 }

@@ -90,7 +90,7 @@ const Team_p = () => {
           <div className="core-team-member">
             <div className="core-team-card">
               <div className="core-team-image">
-                <img src={asset.Taru} alt="Mitanshi Jain" />
+                <img src={asset.Taru} alt="Taru Shrivastava" />
               </div>
               <div className="core-team-details">
                 <h5 className="core-team-name">Taru Shrivastava</h5>
