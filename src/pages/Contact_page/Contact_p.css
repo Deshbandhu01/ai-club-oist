@@ -16,6 +16,7 @@ body {
 
   .contact_sec{
     width:100vw;
+    height: auto;
   }
 
   .link_name{
@@ -61,7 +62,7 @@ body {
   .container {
     background-color: #ffffff;
     padding: 20px;
-    height: 600px;
+    height: 650px;
     width:600px;
     margin:auto;
     border-radius: 8px;
