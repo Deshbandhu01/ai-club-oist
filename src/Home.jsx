@@ -21,9 +21,10 @@ const  Home = () => {
       <About />
       <Event />
       <Resource />
+      <Blog />
       <Team />
       <ContactSection />
-      <Footer />
+      {/* <Footer /> */}
       
     </>
     );

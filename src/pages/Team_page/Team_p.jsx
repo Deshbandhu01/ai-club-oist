@@ -4,10 +4,10 @@ import { asset } from '../../assets/asset';
 const Team_p = () => {
   return (
     <>
+    <div className="link_name">/Team</div>
     <div className="Team-cont">
 
     <section className="core-team-section">
-    <div className="link_name">/Team</div>
       <div className="core-d">
         <h3 className="core-team-title">The Core Team</h3>
         <p className="core-team-description">Meet the dynamic and diligent faces behind the club.</p>
