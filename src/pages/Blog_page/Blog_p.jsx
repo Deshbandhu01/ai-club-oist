@@ -28,7 +28,7 @@ function Blog_p(){
                     />
                     <h3>Machine learning Roadmap</h3>
                     <p>The world has changed recently, becoming faster and wiser ...</p>
-                    <a href="#" className="read-more">Read More &rarr;</a>
+                    <a href="https://medium.com/@ArianAmani/the-deep-learning-road-map-that-i-took-c29120b0f5e2" className="read-more">Read More &rarr;</a>
                     </div>
 
                     <div className="blog-card">
