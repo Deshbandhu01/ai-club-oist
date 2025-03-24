@@ -5,7 +5,7 @@ import { asset } from '../../../assets/asset';
 const Event= () => {
   return (
     <>
-    <h2 className='ai-tit'>Explore Ai Club</h2>
+    <h2 className='ai-tit'>Explore AI Club</h2>
     <div className="event-section">
       
 

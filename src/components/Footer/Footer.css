@@ -60,3 +60,65 @@ img{
 .footer-bottom p{
   color:white
 }
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 10px;
+  }
+
+  .footer-logo-section {
+    margin-bottom: 15px;
+  }
+
+  .footer-links, .footer-social-media {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .footer-links ul, .footer-social-media ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-links li, .footer-social-media li {
+    margin-bottom: 8px;
+  }
+
+  .footer-bottom {
+    margin-top: 15px;
+  }
+
+  .footer-container {
+    padding: 30px 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-content {
+    padding: 10px;
+  }
+
+  .footer-links ul, .footer-social-media ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-links a, .footer-social-media a {
+    font-size: 12px;
+  }
+
+  img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .footer-container {
+    padding: 40px 10px; /* More padding for spacing */
+  }
+}
+

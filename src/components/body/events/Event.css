@@ -90,7 +90,7 @@
   }
   
   .ai-tit{
-    display: flex;
+    display: relative;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -98,5 +98,6 @@
     background-color: aqua;
     width:250px;
     margin:auto;
-    border-radius:20px
+    border-radius:50px
   }
+  

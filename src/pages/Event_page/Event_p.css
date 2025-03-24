@@ -1,102 +1,103 @@
-/* General styles for the resources section */
+/* General styles for the events section */
 .event-section {
-    padding: 20px;
-    background-color: #f9f9f9;
-    width:96%;
-    margin: 10px auto;
-    /* margin-top:100px; */
-  }
-  
-  .event-title {
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    /* margin: 10px auto; */
-  }
-  
-  .event-subtitle {
-    font-size: 18px;
-    color: #555;
-    margin-bottom: 20px;
-  }
-  
-  /* Grid container to hold 
-  
-  items */
-  .event-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-    margin-bottom: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  width: 96%;
+  margin: 20px auto;
+}
 
+/* Navbar Styling */
+.event-bar {
+  display: realtive;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  padding: 20px 0;
+  background-color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
 
-  }
-  
-  /* Individual resource card */
-  .event-item {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.3s ease;
-  }
-  
-  /* Hover effect for resource item */
-  .event-item:hover {
-    transform: translateY(-10px);
-  }
-  
-  /* Image section of the resource card */
-  .event-image {
-    width: 100%;
-    height: 180px;
-    overflow: hidden;
-  }
-  
-  .event-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.event-bar p {
+  margin: 5px;
+  font-size: 18px;
+  color: #666;
+}
 
-  }
-  
-  /* Resource card information section */
-  .event-info {
-    padding: 15px;
-  }
-  
-  .event-title {
-    font-size: 20px;
-    font-weight: 600;
-    margin: 0;
-    color: #333;
-  }
-  
-  .event-link {
-    text-decoration: none;
-    display: block;
-  }
+/* "Explore AI Club" Styling */
+.ai-tit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+  background-color: aqua;
+  width: 250px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  position: relative;
+  top: 20px; 
+  margin: 40px auto 0 auto; 
+}
 
-  .event-bar{
-    display: flex;flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    margin:auto;
-    background-color: transparent;
-  }
-  .event-bar p{
-    margin:10px;
-  }
-  
-  .ai-tit{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    color:blue;
-    background-color: aqua;
-    width:250px;
-    margin:auto;
-    border-radius:20px
-  }
+/* Grid layout for event cards */
+.event-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+/* Individual event card */
+.event-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.event-item:hover {
+  transform: translateY(-10px);
+}
+
+/* Image container */
+.event-image {
+  width: 100%;
+  height: 250px;  
+  overflow: hidden;
+  display: flex;
+}
+
+.event-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Event info section */
+.event-info {
+  flex-grow: 1;
+  padding: 15px;
+  text-align: center;
+}
+
+.event-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  color: #333;
+}
+
+.event-link {
+  text-decoration: none;
+  display: block;
+  color: inherit;
+}
