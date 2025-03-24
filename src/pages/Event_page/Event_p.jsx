@@ -6,7 +6,7 @@ const Event_p= () => {
   return (
     <>
     <div className="ki">
-    <div className="link_name">/Event</div>
+    <div className="link_name">/ Events</div>
     <div className="eve_con">
     <div className="event-section">
     <h2 className='ai-tit'>Explore Ai Club</h2>
@@ -65,6 +65,7 @@ const Event_p= () => {
           </a>
         </div>
       </div>
+      
     </div>
     </div>
     </div>

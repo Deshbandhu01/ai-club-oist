@@ -4,7 +4,7 @@ import { asset } from '../../assets/asset';
 const Team_p = () => {
   return (
     <>
-    <div className="link_name">/Team</div>
+    <div className="link_name">/ Team</div>
     <div className="Team-cont">
 
     <section className="core-team-section">

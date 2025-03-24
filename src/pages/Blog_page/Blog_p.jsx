@@ -2,11 +2,13 @@ import React from 'react';
 import './Blog_p.css';
 import { asset } from '../../assets/asset';
 
+import { Link } from 'react-router-dom';
+
 function Blog_p(){
     return(
         <>
         <div className="bb">
-            <div className="link_name">/Blogs</div>
+            <div className="link_name">/ Blogs</div>
             <section className="blog-section">
                 <h2>Check our Latest Blogposts</h2><br />
 
@@ -38,7 +40,7 @@ function Blog_p(){
                     />
                     <h3>Cypher 3.0 Guide</h3>
                     <p>Coming Soon ...</p>
-                    <a href="https://aiclub-oist.web.app/events/AIEdge" className="read-more">Read More &rarr;</a>
+                    <Link to="/Cypher30" >Read More &rarr;</Link>
                     </div>
 
                     <div className="blog-card">

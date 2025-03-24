@@ -39,7 +39,7 @@ const Contact_p = () => {
   return (
     <>
     
-    <div className="link_name">/Contact</div>
+    <div className="link_name">/ Contact</div>
     <div className="contact_sec">
     <div className="main">
     <div className="conc">

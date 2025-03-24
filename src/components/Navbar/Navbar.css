@@ -27,11 +27,19 @@
     list-style: none;
     display: flex;
     margin: 0;
-  
+    
+  }
+
+  .navbar-right i{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
   }
   
   .navbar-right ul li {
     margin-left: 20px;
+    
   }
   
   .uno{
