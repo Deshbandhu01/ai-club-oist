@@ -79,3 +79,7 @@
     margin:auto;
     background-color: transparent;
   }
+  .event-bar h3{
+    color:black;
+    font-size:1.6rem
+  }

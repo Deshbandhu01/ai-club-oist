@@ -57,7 +57,9 @@ body {
 }
 
 
-
+.link_name{
+  margin-left:50px;
+}
   
   .container {
     background-color: #ffffff;

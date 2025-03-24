@@ -6,7 +6,7 @@ function Blog_p(){
     return(
         <>
         <div className="bb">
-            <div className="link_name">/Team</div>
+            <div className="link_name">/Blogs</div>
             <section className="blog-section">
                 <h2>Check our Latest Blogposts</h2><br />
 
@@ -38,7 +38,7 @@ function Blog_p(){
                     />
                     <h3>Cypher 3.0 Guide</h3>
                     <p>Coming Soon ...</p>
-                    <a href="#" className="read-more">Read More &rarr;</a>
+                    <a href="https://aiclub-oist.web.app/events/AIEdge" className="read-more">Read More &rarr;</a>
                     </div>
 
                     <div className="blog-card">

@@ -197,7 +197,7 @@ const Team_p = () => {
           <div className="core-team-member">
             <div className="core-team-card">
               <div className="core-team-image">
-                <img src={asset.Mitanshi} alt="Naman Vyas " />
+                <img src={asset.Naman} alt="Naman Vyas " />
               </div>
               <div className="core-team-details">
                 <h5 className="core-team-name">Naman Vyas </h5>
@@ -215,7 +215,7 @@ const Team_p = () => {
           <div className="core-team-member">
             <div className="core-team-card">
               <div className="core-team-image">
-                <img src={asset.Zeeshan} alt="Aman Kumar" />
+                <img src={asset.Aman} alt="Aman Kumar" />
               </div>
               <div className="core-team-details">
                 <h5 className="core-team-name">Aman Kumar</h5>
@@ -232,7 +232,7 @@ const Team_p = () => {
           <div className="core-team-member">
             <div className="core-team-card">
               <div className="core-team-image">
-                <img src={asset.khus} alt="Khush Paliwal" />
+                <img src={asset.Archana} alt="Archana Nair" />
               </div>
               <div className="core-team-details">
                 <h5 className="core-team-name">Archana Nair</h5>
@@ -252,11 +252,11 @@ const Team_p = () => {
       </div>
     </section>
 
-    {/*  */}
+    {/* Social Media & Design Team */}
     <section className="core-team-section">
     <div className="tech-d">
     <h3 className="core-team-title"> Social Media & Design Team </h3>
-    <p className="core-team-description">Meet the Technical minds of the Ai club.</p>
+    <p className="core-team-description">Meet the Designing and crafted minds of the Ai club.</p>
     </div>
       <div className="core-team-container">
         <div className="core-team-heading">
@@ -266,7 +266,7 @@ const Team_p = () => {
           <div className="core-team-member">
             <div className="core-team-card">
               <div className="core-team-image">
-                <img src={asset.Mitanshi} alt="Anshul Kushwaha" />
+                <img src={asset.Anshul} alt="Anshul Kushwaha" />
               </div>
               <div className="core-team-details">
                 <h5 className="core-team-name">Anshul Kushwaha</h5>
@@ -284,7 +284,7 @@ const Team_p = () => {
           <div className="core-team-member">
             <div className="core-team-card">
               <div className="core-team-image">
-                <img src={asset.Zeeshan} alt="Vedant Agrawal" />
+                <img src={asset.Vedant} alt="Vedant Agrawal" />
               </div>
               <div className="core-team-details">
                 <h5 className="core-team-name">Vedant Agrawal</h5>
@@ -301,12 +301,153 @@ const Team_p = () => {
           <div className="core-team-member">
             <div className="core-team-card">
               <div className="core-team-image">
-                <img src={asset.khus} alt="Sarthak Dwivedi" />
+                <img src={asset.Sarthak} alt="Sarthak Dwivedi" />
               </div>
               <div className="core-team-details">
                 <h5 className="core-team-name">Sarthak Dwivedi</h5>
                 <h6 className="core-team-role"> Social Media & Design Team </h6>
                 <p className="core-team-bio">CSE AIML 27' - Ensures smooth communication within the club, playing a vital role in coordinating events and activities.</p>
+                <div className="profiles">
+                  <a href="" className='prof'><i class="fa-brands fa-instagram"></i></a>
+                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
+                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+    </section>
+
+
+    {/* Editorial Team*/}
+    <section className="core-team-section">
+    <div className="tech-d">
+    <h3 className="core-team-title"> Editorial Team </h3>
+    <p className="core-team-description">Meet the Editing and styling minds of the Ai club.</p>
+    </div>
+      <div className="core-team-container">
+        <div className="core-team-heading">
+          
+        </div>
+        <div className="core-team-grid">
+          <div className="core-team-member">
+            <div className="core-team-card">
+              <div className="core-team-image">
+                <img src={asset.Mahi} alt="Mahi Paliwal" />
+              </div>
+              <div className="core-team-details">
+                <h5 className="core-team-name">Mahi Paliwal</h5>
+                <h6 className="core-team-role"> Editorial Team </h6>
+                <p className="core-team-bio">CSE AIML 27' - Initiates and leads club projects, fostering a positive and inclusive club environment.</p>
+                <div className="profiles">
+                  <a href="" className='prof'><i class="fa-brands fa-instagram"></i></a>
+                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
+                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <div className="core-team-member">
+            <div className="core-team-card">
+              <div className="core-team-image">
+                <img src={asset.Sunidhi} alt="Sunidhi Patle" />
+              </div>
+              <div className="core-team-details">
+                <h5 className="core-team-name">Sunidhi Patle</h5>
+                <h6 className="core-team-role"> Editorial Team </h6>
+                <p className="core-team-bio">CSE AIML 26' - Drives the club's initiatives forward, bringing creativity and dedication to every task.</p>
+                <div className="profiles">
+                  <a href="" className='prof'><i class="fa-brands fa-instagram"></i></a>
+                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
+                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+        
+      </div>
+    </section>
+
+
+        {/* Event Managing Team*/}
+        <section className="core-team-section">
+    <div className="tech-d">
+    <h3 className="core-team-title"> Event Managing Team </h3>
+    <p className="core-team-description">Meet the Managing minds of the Ai club.</p>
+    </div>
+      <div className="core-team-container">
+        <div className="core-team-heading">
+          
+        </div>
+        <div className="core-team-grid">
+          <div className="core-team-member">
+            <div className="core-team-card">
+              <div className="core-team-image">
+                <img src={asset.Muskan} alt="Muskan Gurjar" />
+              </div>
+              <div className="core-team-details">
+                <h5 className="core-team-name">Muskan Gurjar</h5>
+                <h6 className="core-team-role"> Social Media & Design Team </h6>
+                <p className="core-team-bio">CSE AIML 27' - Initiates and leads club projects, fostering a positive and inclusive club environment.</p>
+                <div className="profiles">
+                  <a href="" className='prof'><i class="fa-brands fa-instagram"></i></a>
+                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
+                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <div className="core-team-member">
+            <div className="core-team-card">
+              <div className="core-team-image">
+                <img src={asset.Swati} alt="Swati Mishra" />
+              </div>
+              <div className="core-team-details">
+                <h5 className="core-team-name">Swati Mishra</h5>
+                <h6 className="core-team-role"> Social Media & Design Team </h6>
+                <p className="core-team-bio">CSE AIML 26' - Drives the club's initiatives forward, bringing creativity and dedication to every task.</p>
+                <div className="profiles">
+                  <a href="" className='prof'><i class="fa-brands fa-instagram"></i></a>
+                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
+                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="core-team-member">
+            <div className="core-team-card">
+              <div className="core-team-image">
+                <img src={asset.Mehvish} alt="Mehvish Khan" />
+              </div>
+              <div className="core-team-details">
+                <h5 className="core-team-name">Mehvish Khan</h5>
+                <h6 className="core-team-role"> Social Media & Design Team </h6>
+                <p className="core-team-bio">CSE AIML 27' - Ensures smooth communication within the club, playing a vital role in coordinating events and activities.</p>
+                <div className="profiles">
+                  <a href="" className='prof'><i class="fa-brands fa-instagram"></i></a>
+                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
+                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="core-team-member">
+            <div className="core-team-card">
+              <div className="core-team-image">
+                <img src={asset.Hardik} alt="Hardik Rahangdale" />
+              </div>
+              <div className="core-team-details">
+                <h5 className="core-team-name">Hardik Rahangdale</h5>
+                <h6 className="core-team-role"> Social Media & Design Team </h6>
+                <p className="core-team-bio">CSE AIML 26' - Drives the club's initiatives forward, bringing creativity and dedication to every task.</p>
                 <div className="profiles">
                   <a href="" className='prof'><i class="fa-brands fa-instagram"></i></a>
                   <a href="" className='prof'><i class="fa-brands fa-github"></i></a>

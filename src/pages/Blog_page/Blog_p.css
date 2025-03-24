@@ -101,3 +101,13 @@ body {
 .large {
     grid-column: span 2;
 }
+
+
+.event-bar h3{
+    color:black;
+    font-size:1.6rem
+  }
+
+.link_name{
+    margin-left:50px;
+}

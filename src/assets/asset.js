@@ -13,6 +13,18 @@ import Taru from './Taru.jpg'
 import Utkarsh from "./Utkarsh.jpg"
 import Ishan from "./Ishan.jpg" 
 import Cypher from "./Cypher.jpg"
+import Archana from "./Archana.jpg"
+import Naman from "./Naman.jpg"
+import Aman from "./Aman.jpg"
+import Anshul from "./Anshul.jpg"
+import Sarthak from "./Sarthak.jpg"
+import Vedant from "./Vedant.jpg"
+import Mahi from "./Mahi.jpg"
+import Sunidhi from "./Sunidhi.jpg"
+import Muskan from "./Muskan.jpg"
+import Swati from "./Swati.jpg"
+import Mehvish from "./Mehvish.jpg"
+import Hardik from "./Hardik.jpg"
 
 export const asset={
     logo,
@@ -29,7 +41,19 @@ export const asset={
     Taru,
     Ishan,
     Utkarsh,
-    Cypher
+    Cypher,
+    Archana,
+    Aman,
+    Naman,
+    Anshul,
+    Sarthak,
+    Vedant,
+    Mahi,
+    Sunidhi,
+    Muskan,
+    Mehvish,
+    Hardik,
+    Swati
 
 
 }
