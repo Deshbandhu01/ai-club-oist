@@ -18,7 +18,7 @@ function Blog_p(){
                     />
                     <h3>Deep learning Roadmap</h3>
                     <p>The world has changed recently, becoming faster and wiser ...</p>
-                    <a href="#" className="read-more">Read More &rarr;</a>
+                    <a href="https://medium.com/@ArianAmani/the-deep-learning-road-map-that-i-took-c29120b0f5e2" className="read-more">Read More &rarr;</a>
                     </div>
 
                     <div className="blog-card">
@@ -28,7 +28,7 @@ function Blog_p(){
                     />
                     <h3>Machine learning Roadmap</h3>
                     <p>The world has changed recently, becoming faster and wiser ...</p>
-                    <a href="https://medium.com/@ArianAmani/the-deep-learning-road-map-that-i-took-c29120b0f5e2" className="read-more">Read More &rarr;</a>
+                    <a href="https://medium.com/@ashujha44/my-machine-learning-journey-perfect-roadmap-for-beginners-78208c47fb92" className="read-more">Read More &rarr;</a>
                     </div>
 
                     <div className="blog-card">
@@ -48,7 +48,7 @@ function Blog_p(){
                     />
                     <h3>Competitive Coding Guide</h3>
                     <p>Competitive programming is like a programming sport involving many...</p>
-                    <a href="#" className="read-more">Read More &rarr;</a>
+                    <a href="https://medium.com/codess-cafe/the-ultimate-guide-to-competitive-programming-7bde37b70f45" className="read-more">Read More &rarr;</a>
                     </div>
                 </div>
             </section>
