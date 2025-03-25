@@ -45,25 +45,7 @@ const ContactSection = () => {
           <div className="contact-form">
             <h2 className="form-heading">Say Hi!</h2>
             <p className="form-description">We'd like to talk with you.</p>
-            <form method="post">
-              <div className="form-group">
-                <label htmlFor="name">Full Name</label>
-                <input id="name" type="text" placeholder="Enter your full name" />
-              </div>
-              <div className="form-group">
-                <label htmlFor="email">Email</label>
-                <input id="email" type="email" placeholder="Enter your email" />
-              </div>
-              <div className="form-group">
-                <label htmlFor="phone">Mobile Number</label>
-                <input id="phone" type="text" placeholder="Enter your mobile number" />
-              </div>
-              <div className="form-group">
-                <label htmlFor="message">Your message</label>
-                <textarea id="message" rows="6" placeholder="Write your message here"></textarea>
-              </div>
-              <button type="submit" className="submit-button">Send Message</button>
-            </form>
+            <iframe src="https://forms.visme.co/formsPlayer/rxw30wp0-untitled-project" className="cont_us"> </iframe>
           </div>
         </div>
       </div>

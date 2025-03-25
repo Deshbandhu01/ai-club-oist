@@ -66,10 +66,8 @@ const Event_p= () => {
         </div>
       </div>
       
-    </div>
-    </div>
-    </div>
-
+    
+      </div>
 
     <div className="resources-section">
       
@@ -112,6 +110,9 @@ const Event_p= () => {
           </a>
         </div>
       </div>
+    </div>
+    
+    </div>
     </div>
     </>
   );

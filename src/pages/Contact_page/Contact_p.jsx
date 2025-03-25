@@ -38,115 +38,12 @@ const Contact_p = () => {
 
   return (
     <>
-    
-    <div className="link_name">/ Contact</div>
+    <div className="link_name">/ Contact </div>
     <div className="contact_sec">
-    <div className="main">
-    <div className="conc">
-      <header>
-        <img
-          src="https://aiclub-oist.web.app/static/media/ailogo.5b25c3a8e4e6b9c095c7.png"
-          alt="AI Club Logo"
-          className="logo"
-        />
-        <h1>Welcome to AI Club</h1>
-      </header>
-
-      <div className="container">
-        <h2>Register for Cypher 30</h2>
-        <form
-          id="registrationForm"
-          onSubmit={handleSubmit}
-        >
-          <label htmlFor="name">Full Name:</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-            required
-          />
-
-          <label htmlFor="email">Email:</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-          />
-
-          <label htmlFor="enrollment number">Enrollment Number:</label>
-          <input
-            type="text"
-            id="number"
-            name="number"
-            value={formData.number}
-            onChange={handleChange}
-            required
-          />
-
-          <label htmlFor="college">College Name:</label>
-          <input
-            type="text"
-            id="college"
-            name="college"
-            value={formData.college}
-            onChange={handleChange}
-            required
-          />
-
-          <label htmlFor="year">Year of Study:</label>
-          <select
-            id="year"
-            name="year"
-            value={formData.year}
-            onChange={handleChange}
-            required
-          >
-            <option value="first">First Year</option>
-            <option value="second">Second Year</option>
-            <option value="third">Third Year</option>
-          </select>
-
-          <label htmlFor="branch">Branch:</label>
-          <select
-            id="branch"
-            name="branch"
-            value={formData.branch}
-            onChange={handleChange}
-            required
-          >
-            <option value="">--Select Your Branch--</option>
-            <option value="cse">CSE</option>
-            <option value="AIML">AIML</option>
-            <option value="CSDS">CSDS</option>
-            <option value="EX">EX</option>
-            <option value="CE">CE</option>
-            <option value="ME">ME</option>
-            <option value="EC">EC</option>
-          </select>
-
-          <label htmlFor="skills">Skills (Comma-separated):</label>
-          <input
-            type="text"
-            id="skills"
-            name="skills"
-            value={formData.skills}
-            onChange={handleChange}
-          />
-
-          <button type="submit">Submit Registration</button>
-        </form>
-
-        {/* Display the result message */}
-        {result && <div id="result" dangerouslySetInnerHTML={{ __html: result }} />}
-        </div>
-      </div>
+    {/* <h1>Connect with us!</h1> */}
+    <iframe src="https://forms.visme.co/formsPlayer/rxw30wp0-untitled-project" className="Contact_form"> </iframe>
     </div>
-    </div>
+    
     </>
   );
 };

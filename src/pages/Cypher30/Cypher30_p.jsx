@@ -5,7 +5,7 @@ import { asset } from '../../assets/asset';
 function Cypher30_p() {
   return (
     <>
-    
+    <div className="link_name">/ Cypher30</div>
     <div className="container_cyp">
       <div className="cy_content">
         <h1>Cypher-30 - A 30 day coding challenge</h1>

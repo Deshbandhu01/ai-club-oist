@@ -17,6 +17,18 @@ body {
   .contact_sec{
     width:100vw;
     height: auto;
+    overflow: hidden;
+  }
+
+  
+  .Contact_form{
+    width:96vw;
+    height:100vh;display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:auto;
+    transform: scale(1.35);
   }
 
   .link_name{
