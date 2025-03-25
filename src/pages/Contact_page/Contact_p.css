@@ -20,10 +20,20 @@ body {
     overflow: hidden;
   }
 
-  
+  .Form_cont{
+    width:96vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+
+  }
+
   .Contact_form{
     width:96vw;
-    height:100vh;display: flex;
+    height:120vh;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
