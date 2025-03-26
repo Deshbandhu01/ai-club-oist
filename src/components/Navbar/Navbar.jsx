@@ -26,8 +26,8 @@ const Navbar = () => {
         <ul>
           <li ><Link to="/events" className="uno"><i class="fa-solid fa-calendar-check"></i>Events</Link></li>
           <li ><Link to="/team" className="uno"><i class="fa-solid fa-users"></i>Team</Link></li>
-          <li ><Link to="/contact" className="uno"><i class="fa-solid fa-phone"></i>Contact</Link></li>
           <li ><Link to="/blog" className="uno"><i class="fa-solid fa-message"></i>Blog</Link></li>
+          <li ><Link to="/contact" className="uno"><i class="fa-solid fa-phone"></i>Contact</Link></li>
         </ul>
       </div>
 

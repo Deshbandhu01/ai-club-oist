@@ -75,7 +75,15 @@
 
   }
   
-  /* Resource card information section */
+  .resource-image{
+    width:40vw;
+    
+  }
+
+
+/* Responsive Design */
+@media (max-width: 900px) {
+
   .event-info {
     padding: 15px;
   }
@@ -120,4 +128,5 @@
   }
   .link_name{
     margin-left:50px;
+}
 }

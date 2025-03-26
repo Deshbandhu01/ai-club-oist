@@ -7,7 +7,7 @@ const ContactSection = () => {
   return (
     <>
     <section className="contact-section">
-      <div className="container_C">
+      <div className="container_Co">
         <div className="grid-container">
           {/* Left section with Video Background */}
           <div className="contact-info">

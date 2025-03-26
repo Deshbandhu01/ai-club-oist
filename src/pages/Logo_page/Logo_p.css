@@ -16,7 +16,7 @@
   }
   
   .content_logo {
-    width: auto;
+    width: 65vw;
     background-color: white;
     padding: 30px;
     border-radius: 8px;
@@ -73,8 +73,17 @@
   .image-section{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:35vw;
+    height:auto
   }
 
+  .image-section img{
+    width:32vw;
+    height:auto;
+    margin:auto;
+  }
 
 
 /* Responsive Design */
