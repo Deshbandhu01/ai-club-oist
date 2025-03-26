@@ -15,10 +15,11 @@ const Event_p= () => {
         <div className="event-bar">
             <h3 className="event-title">Events</h3>
             <p className="event-subtitle">Important Resources</p>                
-        </div> 
+        </div>
+        
         <div className="event-item">
-          {/* <Link to="events/LogoDesign"> */}
-          <a href="/events/LogoDesign">
+          <Link to="LogoDesign">
+          {/* <a href="/events/LogoDesign"> */}
             <div className="event-card">
               <div className="event-image">
                 <img 
@@ -31,12 +32,12 @@ const Event_p= () => {
                 <h6 className="event-title">Logo Designing Competition</h6>
               </div>
             </div>
-            </a>
-          {/* </Link> */}
+            {/* </a> */}
+            </Link>
         </div>
         <div className="event-item">
-        {/* <Link to="events/TEDx"> */}
-          <a href="/events/TEDx" className="event-link">
+        <Link to="TEDx">
+          {/* <a href="/events/TEDx" className="event-link"> */}
             <div className="event-card">
               <div className="event-image">
                 <img 
@@ -49,13 +50,15 @@ const Event_p= () => {
               <h6 className="event-title">TEDx Oriental Institute of Science and Technology</h6>
               </div>
             </div>
-          </a>
-          {/* </Link> */}
+          {/* </a> */}
+          </Link>
         </div>
         <div className="event-item">
-          <a href="/events/Cypher30" className="event-link">
-            <div className="event-card">
-              <div className="event-image">
+          <Link to="Cypher30">
+          {/* <Link to="events/Cypher30"> */}
+          {/* <a href="/events/Cypher30" className="event-link"> */}
+            <div className="event-card cype-img">
+              <div className="event-image cyp-img">
                 <img 
                   src={asset.Cypher_30_win} 
                   alt="Edge AI Magazine 2023" 
@@ -66,7 +69,9 @@ const Event_p= () => {
                 <h6 className="event-title">Cypher-30</h6>
               </div>
             </div>
-          </a>
+          {/* </a> */}
+          </Link>
+          {/* </Link> */}
         </div>
       </div>
       

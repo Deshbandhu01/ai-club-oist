@@ -17,7 +17,7 @@ const Event= () => {
         </div> 
         <div className="event-item">
         <Link to="events/LogoDesign">
-          <a href="/events/AIEdge" className="event-link">
+          {/* <a href="/events/AIEdge" className="event-link"> */}
             <div className="event-card">
               <div className="event-image">
                 <img 
@@ -30,7 +30,7 @@ const Event= () => {
                 <h6 className="event-title">Logo Designing Competition</h6>
               </div>
             </div>
-          </a>
+          {/* </a> */}
           </Link>
         </div>
         <div className="event-item">
@@ -52,10 +52,11 @@ const Event= () => {
           </Link>
         </div>
         <div className="event-item">
+          <Link to="events/Cypher30">
           {/* <Link to="events/Cypher30"> */}
-          <a href="/events/Cypher30" className="event-link">
-            <div className="event-card">
-              <div className="event-image">
+          {/* <a href="/events/Cypher30" className="event-link"> */}
+            <div className="event-card cype-img">
+              <div className="event-image cyp-img">
                 <img 
                   src={asset.Cypher_30_win} 
                   alt="Edge AI Magazine 2023" 
@@ -66,7 +67,8 @@ const Event= () => {
                 <h6 className="event-title">Cypher-30</h6>
               </div>
             </div>
-          </a>
+          {/* </a> */}
+          </Link>
           {/* </Link> */}
         </div>
       </div>
