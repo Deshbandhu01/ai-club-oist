@@ -2,8 +2,14 @@
     font-family: 'Arial', sans-serif;
     padding: 20px;
     background-color: #fff;
+    width:100vw;
   }
   
+  .ted-x{
+    width:96vw;
+    display:flex;
+    flex-direction: row;
+  }
   .tedx-title {
     color: #003366;
     font-size: 2rem;
@@ -40,7 +46,8 @@
   }
   
   .image-container img {
-    width: 400px;
+    width: max-content;
+    height:80vh;
     border-radius: 10px;
     margin-top: 20px;
   }

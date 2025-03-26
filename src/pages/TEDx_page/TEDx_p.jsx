@@ -5,6 +5,8 @@ import { asset } from '../../assets/asset';
 const Tedx_p = () => {
   return (
     <div className="tedx-container">
+        <div className="ted-x">
+            <div className="ted-right">
       <h1 className="tedx-title">
         TEDx 2023 <span>@Oriental Institute of Science and Technology</span>
       </h1>
@@ -40,9 +42,11 @@ const Tedx_p = () => {
       <a href="#" className="register-link">
         Register Here →
       </a>
-
+      </div>
+      
       <div className="image-container">
         <img src={asset.TEDx_comp} alt="TEDx Oriental Institute of Science and Technology" />
+      </div>
       </div>
     </div>
   );

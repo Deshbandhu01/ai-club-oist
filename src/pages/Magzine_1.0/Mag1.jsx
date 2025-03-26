@@ -1,6 +1,6 @@
 import React from 'react';
 import './Mag1.css';
-
+import { asset } from '../../assets/asset';
 function Mag1() {
   return (
     <div className="container_mag">
@@ -21,7 +21,7 @@ function Mag1() {
         </div>
         
         <div className="image-section">
-          <img src="edge-ai-image.png" alt="Edge AI Magazine" />
+          <img src={asset.Edge_ai_2023} alt="Edge AI Magazine" />
         </div>
       </div>
     </div>

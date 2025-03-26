@@ -17,7 +17,8 @@ const Event_p= () => {
             <p className="event-subtitle">Important Resources</p>                
         </div> 
         <div className="event-item">
-          <a href="/events/LogoDesign" className="event-link">
+          {/* <Link to="events/LogoDesign"> */}
+          <a href="/events/LogoDesign">
             <div className="event-card">
               <div className="event-image">
                 <img 
@@ -30,7 +31,8 @@ const Event_p= () => {
                 <h6 className="event-title">Logo Designing Competition</h6>
               </div>
             </div>
-          </a>
+            </a>
+          {/* </Link> */}
         </div>
         <div className="event-item">
         {/* <Link to="events/TEDx"> */}
@@ -51,7 +53,7 @@ const Event_p= () => {
           {/* </Link> */}
         </div>
         <div className="event-item">
-          <a href="/events/AIEdge" className="event-link">
+          <a href="/events/Cypher30" className="event-link">
             <div className="event-card">
               <div className="event-image">
                 <img 

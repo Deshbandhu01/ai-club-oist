@@ -23,7 +23,7 @@ function App() {
         <Route path="/team" element={<Team_p />} />
         <Route path="/contact" element={<Contact_p />} />
         <Route path="/blog" element={<Blog_p />} />
-        <Route path="/Cypher30" element={<Cypher30_p />} />
+        <Route path="/events/Cypher30" element={<Cypher30_p />} />
         <Route path="/events/TEDx" element={<Tedx_p/>}/>
         <Route path="/events/LogoDesign" element={<Logo_p />} />
         <Route path="/events/Magazine_1.0" element={<Mag1 />} />

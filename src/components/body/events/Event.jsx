@@ -52,7 +52,8 @@ const Event= () => {
           </Link>
         </div>
         <div className="event-item">
-          <a href="/events/AIEdge" className="event-link">
+          {/* <Link to="events/Cypher30"> */}
+          <a href="/events/Cypher30" className="event-link">
             <div className="event-card">
               <div className="event-image">
                 <img 
@@ -66,6 +67,7 @@ const Event= () => {
               </div>
             </div>
           </a>
+          {/* </Link> */}
         </div>
       </div>
     </div>
