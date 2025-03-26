@@ -1,8 +1,12 @@
 import React from 'react';
 import './Logo_p.css';
+import { asset } from '../../assets/asset';
 
 function Logo_p() {
   return (
+    <>
+      <div className="link_name">/ Logo Designing </div>
+    
     <div className="container_logo">
       <div className="content_logo">
         <h1>Design the official logo of AI Club OIST!</h1>
@@ -23,7 +27,7 @@ function Logo_p() {
           </li>
           <li>
             <strong>Submission:</strong> Fill out the Google Form below. Submit your entry
-            before the deadline - <strong>25 Aug, 2023.</strong>
+            before the deadline - <strong>It will be updated as soon as possible.</strong>
           </li>
           <li>
             <strong>Contest:</strong> Best of the designs will be featured on our Insta page and
@@ -40,16 +44,17 @@ function Logo_p() {
           Ready to inspire? Ready to create? Join the Logo Designing Contest
           and let your creativity take flight!✨
         </p>
-        <a href="https://forms.gle/VH5qfwBwb2vuGJ728" className="form-link">
+        <a href="#" className="form-link">
           Fill out the form
         </a>
         <a href="#" className="register-link">Register Here ➡</a>
       </div>
 
       <div className="image-section">
-        <img src="ai-club-logo.png" alt="Logo Designing Contest" />
+        <img src={asset.Logo_design_comp} alt="Logo Designing Contest" className='Logo_img_comp'/>
       </div>
     </div>
+    </>
   );
 }
 

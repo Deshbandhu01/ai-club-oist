@@ -13,6 +13,7 @@
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    
   }
   
   h1 {
@@ -34,8 +35,16 @@
   
   li {
     margin-bottom: 10px;
+    
   }
   
+  .content_logo strong{
+    color:blue
+  }
+
+  .content_logo li{
+    color:black
+  }
   .form-link, .register-link {
     display: inline-block;
     margin-top: 20px;
@@ -52,6 +61,11 @@
   }
   
   .image-section img {
-    max-width: 400px;
+    max-width:800px;
     border-radius: 10px;
+  }
+
+  .Logo_img_comp {
+    width:45vw;
+    height:100vh
   }
