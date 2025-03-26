@@ -12,6 +12,7 @@ import Cypher30_p from './pages/Cypher30/Cypher30_p.jsx';
 import Tedx_p from './pages/TEDx_page/TEDx_p.jsx';
 import Logo_p from './pages/Logo_page/Logo_p.jsx';
 import Mag1 from './pages/Magzine_1.0/MAg1.jsx';
+import Home from './Home.jsx';
 
 function App() {
   return(
@@ -19,7 +20,7 @@ function App() {
       <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home/>} />
         <Route path="/events" element={<Event_p />} />
         <Route path="/team" element={<Team_p />} />
         <Route path="/contact" element={<Contact_p />} />
