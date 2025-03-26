@@ -8,7 +8,10 @@ const App = () => {
       <div className="content">
         {/* Left Section: About AI Club */}
         <div className="about-section">
+          <div className="heading_name">
           <h1 className="about-heading">About Us</h1>
+          </div>
+          
           <div className="flip-card">
             <div className="flip-card-inner">
               <div className="flip-card-front">

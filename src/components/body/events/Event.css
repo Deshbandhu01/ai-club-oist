@@ -104,6 +104,10 @@
 
 /* Responsive Design */
 @media (max-width: 900px) {
+
+  .ai-tit{
+    margin-top:10px;
+  }
   .event-section{
     height:auto;
     width:100vw;
