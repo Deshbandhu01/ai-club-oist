@@ -61,3 +61,14 @@ img{
 .footer-bottom p{
   color:white
 }
+
+  /* Responsive Design */
+  @media (max-width: 900px) {
+    .footer-container{
+      height:auto;
+      width:100vw;
+  
+      margin:auto;
+      /* margin-top:15px */
+    }
+  }

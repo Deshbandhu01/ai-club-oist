@@ -162,7 +162,8 @@ body {
 /* Responsive Design */
 @media (max-width: 900px) {
   .main-container{
-    height:150vh;
+    height:auto;
+    margin-top:15px
   }
   
   

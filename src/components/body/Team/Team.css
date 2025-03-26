@@ -116,7 +116,7 @@
     background-color: #005a8b;
   }
   
-  /* Responsive Design */
+  /* Responsive Design
   @media screen and (max-width: 768px) {
     .core-team-grid {
       grid-template-columns: 1fr;
@@ -134,4 +134,28 @@
       font-size: 16px;
     }
   }
+   */
+
+  /* Responsive Design */
+@media (max-width: 900px) {
+  .core-team-section{
+    height:auto;
+    width:90vw;
+
+    margin:auto;
+    /* margin-top:15px */
+  }
   
+  .core-team-grid{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .event-item{
+    display: flex;
+    flex-direction: column;
+    width:90vw;
+    margin:auto;
+  }
+  
+}

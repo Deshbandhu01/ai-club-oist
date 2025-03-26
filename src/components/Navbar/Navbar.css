@@ -20,7 +20,7 @@
   }
   
   .navbar-left .logo img {
-    height: 40px;
+    height: auto;
   }
   
   .navbar-right ul {
@@ -66,6 +66,10 @@
   }
   
   @media screen and (max-width: 768px) {
+    .navbar{
+      width:80vw;
+      margin:auto;
+    }
     .navbar-right {
       display: none;
     }
@@ -83,6 +87,7 @@
     .navbar-right ul {
       flex-direction: column;
       margin-top: 20px;
+      margin-left: 10px;
     }
   
     .navbar-right ul li {

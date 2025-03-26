@@ -98,3 +98,28 @@ body {
 .large {
     grid-column: span 2;
 }
+
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .blog-section{
+      height:auto;
+      width:100vw;
+  
+      margin:auto;
+      /* margin-top:15px */
+    }
+    
+    .blog-grid{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .blog-card{
+      display: flex;
+      flex-direction: column;
+      width:90vw;
+      margin:auto;
+    }
+    
+  }

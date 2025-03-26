@@ -83,3 +83,27 @@
     color:black;
     font-size:1.6rem
   }
+
+
+  /* Responsive Design */
+@media (max-width: 900px) {
+  .resource-section{
+    height:auto;
+    width:100vw;
+
+    margin:auto;
+    /* margin-top:15px */
+  }
+  
+  .resource-grid{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .resource-item{
+    display: flex;
+    flex-direction: column;
+    width:90vw;
+    margin:auto;
+  } 
+}

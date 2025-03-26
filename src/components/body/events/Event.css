@@ -100,3 +100,28 @@
     margin:auto;
     border-radius:20px
   }
+
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  .event-section{
+    height:auto;
+    width:100vw;
+
+    margin:auto;
+    /* margin-top:15px */
+  }
+  
+  .event-grid{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .event-item{
+    display: flex;
+    flex-direction: column;
+    width:90vw;
+    margin:auto;
+  }
+  
+}

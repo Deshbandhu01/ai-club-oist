@@ -167,22 +167,46 @@
     background-color: #005a8b; /* Darker blue on hover */
   }
   
-  /* Responsive Styling */
-  @media screen and (max-width: 768px) {
-    .grid-container {
-      flex-direction: column; /* Stack sections vertically on small screens */
-      height:40vh;
-    }
 
-    .container{
-      height:110vh;
+  
+   /* Responsive Design */
+   @media (max-width: 900px) {
+    .contact-section{
+      height:auto;
+      width:100vw;
+      
+      margin:auto;
+      /* margin-top:15px */
+    }
+    .contact-content{
+      height:auto;
+      width:90vw;
+      border-radius:10px;
+    }
+    .core-team-grid{
+      display: flex;
+      flex-direction: column;
     }
   
-    .contact-info,
-    .contact-form {
-      flex: 1 0 100%;
-      padding: 20px;
-
+    .contact-form{
+      height:auto;
+      width:100vw;
+      margin:auto;
     }
+
+    .forms{
+      width:90vw;
+      margin:auto;
+      height:auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .cont_us{
+      width:100vw;
+      height:60vh;
+      transform: scale(0.90);
+      margin:auto;
+    }
+    
   }
-  

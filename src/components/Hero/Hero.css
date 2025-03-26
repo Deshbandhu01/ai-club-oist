@@ -14,8 +14,13 @@
 
 .fig{
     width:30vw;
-    position:relative;
-    left:5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* position:relative; */
+    margin:auto;
+    /* left:5%; */
 
 }
 .fig h1{
@@ -30,4 +35,52 @@
 .box{
     width:70vw;
     height:81vh;
+    margin:auto;
 }
+
+@media screen and (max-width: 768px) {
+
+    .Home_container{
+        width:100vw;
+        height:90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:0px;
+        margin:auto;
+        /* margin-right:0px; */
+        /* margi */
+        
+        
+    }
+
+    .home_la{
+        width:100vw;
+        height:90vh;
+        margin:auto;
+        
+    }
+    .content_hero{
+        width:100vw;
+        height:90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+
+    .fig{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:30vh;
+        width:100vw
+    }
+    .box{
+        height:70vh;
+        width:100vw;
+    }
+}
+  
