@@ -7,6 +7,7 @@ function Cypher30_p() {
     <>
     <div className="link_name">/ Cypher30</div>
     <div className="container_cyp">
+      <div className="cont_cypher">
       <div className="cy_content">
         <h1>Cypher-30 - A 30 day coding challenge</h1>
         <p>Greetings Everyone!! 🌻</p>
@@ -25,8 +26,9 @@ function Cypher30_p() {
         </ul>
         <a href="https://forms.gle/Hc69ATQZkJ7TWxXB7" className="register-btn">Register Here →</a>
       </div>
-      <div className="image-section">
-        <img src={asset.Cypher_30_win} alt="Cypher 30 Challenge" />
+      <div className="image-section_cy">
+        <img src={asset.Cypher_30_win} alt="Cypher 30 Challenge" className='Cypher30_1' />
+      </div>
       </div>
     </div>
     </>

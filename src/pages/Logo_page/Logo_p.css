@@ -1,21 +1,31 @@
 .container_logo {
+    width:100vw;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    padding: 40px;
+    /* padding: 40px; */
     background-color: #f9f9f9;
     font-family: 'Segoe UI', sans-serif;
   }
   
+  .logo_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;;
+    width:96vw
+  }
+  
   .content_logo {
-    width: 55%;
+    width: auto;
     background-color: white;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-    
+    height:auto;
+    margin:auto;
   }
   
+
   h1 {
     color: #2a2a72;
   }
@@ -39,11 +49,11 @@
   }
   
   .content_logo strong{
-    color:blue
+    color:blue;
   }
 
   .content_logo li{
-    color:black
+    color:black;
   }
   .form-link, .register-link {
     display: inline-block;
@@ -59,13 +69,51 @@
     background-color: #f94c66;
     margin-left: 10px;
   }
-  
-  .image-section img {
-    max-width:800px;
-    border-radius: 10px;
+
+  .image-section{
+    display: flex;
+    flex-direction: column;
   }
 
-  .Logo_img_comp {
-    width:45vw;
-    height:100vh
+
+
+/* Responsive Design */
+@media (max-width: 900px) {
+
+  
+  .container_logo{
+    height:auto;
+    width:100vw;
+    margin:auto;
+    /* margin-top:15px */
   }
+  
+  .logo_container{
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: column;
+  }
+
+  .content_logo{
+    width:96vw;
+    /* height:40vh; */
+  }
+  
+  .image-section img{
+    height:auto;
+    width:96vw;
+  }
+
+  
+  .image-section{
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+    width:96vw;
+  }
+
+  .image-section h1{
+    font-size:1rem;
+    
+  }
+}

@@ -8,6 +8,7 @@ function Logo_p() {
       <div className="link_name">/ Logo Designing </div>
     
     <div className="container_logo">
+      <div className="logo_container">
       <div className="content_logo">
         <h1>Design the official logo of AI Club OIST!</h1>
         <p>Calling all the Aficionados...!</p>
@@ -51,8 +52,10 @@ function Logo_p() {
       </div>
 
       <div className="image-section">
+        <h1>Visit our old memories and success Below</h1>
         <img src={asset.Logo_design_comp} alt="Logo Designing Contest" className='Logo_img_comp'/>
       </div>
+    </div>
     </div>
     </>
   );

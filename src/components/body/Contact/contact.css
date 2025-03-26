@@ -204,8 +204,8 @@
     }
     .cont_us{
       width:100vw;
-      height:60vh;
-      transform: scale(0.90);
+      height:100vh;
+      transform: scale(1.05);
       margin:auto;
     }
     

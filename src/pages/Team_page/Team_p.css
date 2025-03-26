@@ -185,7 +185,20 @@
     .core-team-button {
       font-size: 16px;
     }
+
+    .core-team-card{
+      height:auto;
+    }
+
+    .core-team-member{
+      height:400px;
+    }
+  
+    .core-team-bio{
+      height: auto;;
+    }
   }
+
   
 
   .tech-d {

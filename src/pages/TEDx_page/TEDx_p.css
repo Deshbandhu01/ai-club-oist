@@ -38,6 +38,7 @@
   .speaker-list li {
     margin: 5px 0;
     font-size: 1rem;
+    color:brown
   }
   
   .register-link {
@@ -46,8 +47,58 @@
   }
   
   .image-container img {
-    width: max-content;
-    height:80vh;
+    /* width: max-content; */
+    /* height:80vh; */
     border-radius: 10px;
     margin-top: 20px;
   }
+
+  
+
+
+/* Responsive Design */
+@media (max-width: 900px) {
+
+  
+  .tedx-container{
+    height:auto;
+    width:96vw;
+    margin:auto;
+    /* margin-top:15px */
+  }
+  
+  .ted-x{
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: column;
+    width:100vw;
+    margin:auto;
+    height:auto;
+  }
+
+  .ted-right{
+    width:92vw;
+    /* height:40vh; */
+  }
+  
+  .image_tedx_p{
+    width:87vw;
+    height:auto;
+    margin: auto;;
+
+  }
+  .image-container{
+    height:auto;
+    width:90vw
+  }
+
+  
+  .image-section{
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+    /* width:96vw; */
+    height: 40vh;
+  }
+
+}

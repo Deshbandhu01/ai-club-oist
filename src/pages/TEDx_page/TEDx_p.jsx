@@ -4,8 +4,12 @@ import { asset } from '../../assets/asset';
 
 const Tedx_p = () => {
   return (
+
+    <>
+      <div className="link_name">/ TEDx 2023 </div>
+    
     <div className="tedx-container">
-        <div className="ted-x">
+      <div className="ted-x">
             <div className="ted-right">
       <h1 className="tedx-title">
         TEDx 2023 <span>@Oriental Institute of Science and Technology</span>
@@ -33,10 +37,10 @@ const Tedx_p = () => {
         <li><b>Aryan Tripathi</b></li>
         <li><b>Bhawna Dehariya</b></li>
         <li><b>Dr. Tanu Jain</b></li>
-        <li>Aditya Kachave</li>
-        <li>Mohd. Fraz</li>
-        <li>Siddharth Jain</li>
-        <li>Rahul Bhargava</li>
+        <li><b>Aditya Kachave</b></li>
+        <li><b>Mohd. Fraz</b></li>
+        <li><b>Siddharth Jain</b></li>
+        <li><b>Rahul Bhargava</b></li>
       </ul>
 
       <a href="#" className="register-link">
@@ -45,10 +49,11 @@ const Tedx_p = () => {
       </div>
       
       <div className="image-container">
-        <img src={asset.TEDx_comp} alt="TEDx Oriental Institute of Science and Technology" />
-      </div>
+        <img src={asset.TEDx_comp} alt="TEDx Oriental Institute of Science and Technology" className='image_tedx_p'/>
       </div>
     </div>
+    </div>
+    </>
   );
 };
 
