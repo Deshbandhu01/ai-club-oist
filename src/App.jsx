@@ -12,7 +12,7 @@ import Cypher30_p from './pages/Cypher30/Cypher30_p.jsx';
 import Tedx_p from './pages/TEDx_page/TEDx_p.jsx';
 import Logo_p from './pages/Logo_page/Logo_p.jsx';
 import Mag1 from './pages/Magzine_1.0/MAg1.jsx';
-import Home from '.home.jsx';
+import Home from './home.jsx';
 function App() {
   return(
     <> 
