@@ -194,6 +194,25 @@ const Team_p = () => {
           
         </div>
         <div className="core-team-grid">
+
+        <div className="core-team-member">
+            <div className="core-team-card">
+              <div className="core-team-image">
+                <img src={asset.Aman} alt="Aman Kumar" />
+              </div>
+              <div className="core-team-details">
+                <h5 className="core-team-name">Aman Kumar</h5>
+                <h6 className="core-team-role">Technical Team </h6>
+                <p className="core-team-bio">CSE AIML 26' - Drives the club's initiatives forward, bringing creativity and dedication to every task.</p>
+                <div className="profiles">
+                  <a href="" className='prof'><i class="fa-brands fa-instagram"></i></a>
+                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
+                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
           <div className="core-team-member">
             <div className="core-team-card">
               <div className="core-team-image">
@@ -212,23 +231,7 @@ const Team_p = () => {
               </div>
             </div>
           </div>
-          <div className="core-team-member">
-            <div className="core-team-card">
-              <div className="core-team-image">
-                <img src={asset.Aman} alt="Aman Kumar" />
-              </div>
-              <div className="core-team-details">
-                <h5 className="core-team-name">Aman Kumar</h5>
-                <h6 className="core-team-role">Technical Team </h6>
-                <p className="core-team-bio">CSE AIML 26' - Drives the club's initiatives forward, bringing creativity and dedication to every task.</p>
-                <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-instagram"></i></a>
-                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
-                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
+          
           <div className="core-team-member">
             <div className="core-team-card">
               <div className="core-team-image">
