@@ -9,6 +9,9 @@ import Blog_p from './pages/Blog_page/Blog_p.jsx';
 import Home from "./home.jsx";
 import Footer from './components/Footer/Footer.jsx';
 import Cypher30_p from './pages/Cypher30/Cypher30_p.jsx';
+import Tedx_p from './pages/TEDx_page/TEDx_p.jsx';
+import Logo_p from './pages/Logo_page/Logo_p.jsx';
+import Mag1 from './pages/Magzine_1.0/MAg1.jsx';
 function App() {
   return(
     <> 
@@ -21,6 +24,9 @@ function App() {
         <Route path="/contact" element={<Contact_p />} />
         <Route path="/blog" element={<Blog_p />} />
         <Route path="/Cypher30" element={<Cypher30_p />} />
+        <Route path="/events/TEDx" element={<Tedx_p/>}/>
+        <Route path="/events/LogoDesign" element={<Logo_p />} />
+        <Route path="/events/Magazine_1.0" element={<Mag1 />} />
       </Routes>
       <Footer />
       </Router>

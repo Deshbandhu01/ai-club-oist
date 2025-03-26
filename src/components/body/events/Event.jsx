@@ -1,6 +1,7 @@
 import React from 'react';
 import './Event.css';
 import { asset } from '../../../assets/asset';
+import { Link } from 'react-router-dom';
 
 const Event= () => {
   return (
@@ -15,6 +16,7 @@ const Event= () => {
             <p className="event-subtitle">Important Resources</p>                
         </div> 
         <div className="event-item">
+        <Link to="events/LogoDesign">
           <a href="/events/AIEdge" className="event-link">
             <div className="event-card">
               <div className="event-image">
@@ -29,9 +31,11 @@ const Event= () => {
               </div>
             </div>
           </a>
+          </Link>
         </div>
         <div className="event-item">
-          <a href="/events/AIEdge" className="event-link">
+          <Link to="events/TEDx">
+          {/* <a href="/events/AIEdge" className="event-link"> */}
             <div className="event-card">
               <div className="event-image">
                 <img 
@@ -44,7 +48,8 @@ const Event= () => {
                 <h6 className="event-title">TEDx Oriental Institute of Science and Technology</h6>
               </div>
             </div>
-          </a>
+          {/* </a> */}
+          </Link>
         </div>
         <div className="event-item">
           <a href="/events/AIEdge" className="event-link">

@@ -1,0 +1,46 @@
+.tedx-container {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .tedx-title {
+    color: #003366;
+    font-size: 2rem;
+  }
+  
+  .tedx-title span {
+    color: #000;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .speaker-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .speaker-list li {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  
+  .register-link {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .image-container img {
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }

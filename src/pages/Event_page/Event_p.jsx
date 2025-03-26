@@ -1,7 +1,7 @@
 import React from 'react';
 import './Event_p.css';
 import { asset } from '../../assets/asset';
-
+import { Link } from 'react-router-dom';
 const Event_p= () => {
   return (
     <>
@@ -17,7 +17,7 @@ const Event_p= () => {
             <p className="event-subtitle">Important Resources</p>                
         </div> 
         <div className="event-item">
-          <a href="/events/AIEdge" className="event-link">
+          <a href="/events/LogoDesign" className="event-link">
             <div className="event-card">
               <div className="event-image">
                 <img 
@@ -33,7 +33,8 @@ const Event_p= () => {
           </a>
         </div>
         <div className="event-item">
-          <a href="/events/AIEdge" className="event-link">
+        {/* <Link to="events/TEDx"> */}
+          <a href="/events/TEDx" className="event-link">
             <div className="event-card">
               <div className="event-image">
                 <img 
@@ -43,10 +44,11 @@ const Event_p= () => {
                 />
               </div>
               <div className="event-info">
-                <h6 className="event-title">TEDx Oriental Institute of Science and Technology</h6>
+              <h6 className="event-title">TEDx Oriental Institute of Science and Technology</h6>
               </div>
             </div>
           </a>
+          {/* </Link> */}
         </div>
         <div className="event-item">
           <a href="/events/AIEdge" className="event-link">

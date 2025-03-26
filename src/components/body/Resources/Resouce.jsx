@@ -1,6 +1,7 @@
 import React from 'react';
 import './resource.css';
 import { asset } from '../../../assets/asset';
+import { Link } from 'react-router-dom';
 
 const Resource = () => {
   return (
@@ -13,6 +14,7 @@ const Resource = () => {
         <p className="section-subtitle">Important Resources</p>              
         </div> 
         <div className="resource-item">
+          <Link to="events/Magazine_1.0">
           <a href="/events/AIEdge" className="resource-link">
             <div className="resource-card">
               <div className="resource-image">
@@ -27,6 +29,7 @@ const Resource = () => {
               </div>
             </div>
           </a>
+          </Link>
         </div>
         <div className="resource-item">
           <a href="/events/AIEdge" className="resource-link">

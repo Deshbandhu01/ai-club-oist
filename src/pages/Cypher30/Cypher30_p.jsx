@@ -14,7 +14,7 @@ function Cypher30_p() {
           AI Club, Department of CSE-AIML, OIST is organizing Cypher 30, a 30-day coding challenge, starting from
           <strong> 1st April to 1st May 2025</strong>. 🛡
         </p>
-        <p>💥💥 <a href="http://bit.ly/3SyNrMb">Register Are Open Again Now</a> 💥💥</p>
+        <p>💥💥 <a href="https://forms.gle/Hc69ATQZkJ7TWxXB7">Register Are Open Again Now</a> 💥💥</p>
         <ul>
           <li>👉 Don't forget to share it with your friends and classmates</li>
           <li>👉 We aim to help you improve your coding skills, challenge yourself every day, and have fun along the way with coding.</li>
@@ -23,7 +23,7 @@ function Cypher30_p() {
           <li>👉 Open to 1st year and 2nd year students, regardless of skill level or coding knowledge.</li>
           <li>👉 <strong>Rules</strong> are shared in the form of a PDF in the registration form. Please read them carefully.</li>
         </ul>
-        <a href="http://bit.ly/https://docs.google.com/forms/d/e/1FAIpQLScxoU1w89B81lkhmw_Flz-wRxdSSK3fn_mse4mH_hzXGhP7Lw/viewform" className="register-btn">Register Here →</a>
+        <a href="https://forms.gle/Hc69ATQZkJ7TWxXB7" className="register-btn">Register Here →</a>
       </div>
       <div className="image-section">
         <img src={asset.Cypher_30_win} alt="Cypher 30 Challenge" />

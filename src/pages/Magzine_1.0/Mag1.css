@@ -1,0 +1,48 @@
+.container_mag {
+    padding: 40px;
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .container_magh1 {
+    color: #2a2a72;
+  }
+  
+  .container_mag h2 {
+    color: #f94c66;
+  }
+  
+  .container_mag p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .content_mag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .text-section {
+    width: 55%;
+  }
+  
+  .image-section img {
+    width: 400px;
+    border-radius: 10px;
+  }
+  
+  .download-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+  }
+  
+  .download-link:hover {
+    background-color: #0056b3;
+  }
