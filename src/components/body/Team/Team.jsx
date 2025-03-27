@@ -1,6 +1,7 @@
 import React from 'react';
 import './Team.css'; // Make sure to import the CSS file
 import { asset } from '../../../assets/asset';
+import { Link } from 'react-router-dom';
 const Team = () => {
   return (
     <section className="core-team-section">
@@ -59,7 +60,10 @@ const Team = () => {
             </div>
           </div>
         </div>
-        <a className="core-team-button" href="/team">See the full team</a>
+        <Link to="team" className="core-team-button">
+        See the full team
+        {/* <a className="core-team-button" href="/team">See the full team</a> */}
+        </Link>
       </div>
     </section>
   );
