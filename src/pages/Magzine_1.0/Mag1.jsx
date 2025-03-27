@@ -3,6 +3,11 @@ import './Mag1.css';
 import { asset } from '../../assets/asset';
 function Mag1() {
   return (
+
+    <>
+    <div className="link_name">/ Edge AI 1.O</div>
+
+    
     <div className="container_mag">
       <h1>Cypher-30</h1>
       <div className="content_mag">
@@ -25,6 +30,8 @@ function Mag1() {
         </div>
       </div>
     </div>
+  
+    </>
   );
 }
 

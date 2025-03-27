@@ -46,3 +46,28 @@
   .download-link:hover {
     background-color: #0056b3;
   }
+
+  
+@media screen and (max-width: 768px) {
+
+  .container_mag{
+      /* width:100vw; */
+      height:auto;
+      padding:0px;
+      margin:auto;
+      /* margin-right:0px; */
+      /* margi */
+      
+      
+  }
+
+  .content_mag{
+    flex-direction:column;
+    margin:auto;
+  }
+
+  .text-section{
+    width:100vw;
+  }
+
+}
