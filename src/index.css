@@ -10,6 +10,7 @@
 
 body {
     font-family: Arial, sans-serif; /* Example font, set default font */
+    scroll-behavior: smooth;
 }
 
 .navbar, .nav-left, .nav-right, a {

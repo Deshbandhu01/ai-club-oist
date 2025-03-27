@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import { Link } from "react-router-dom";
 
 const App = () => {
   return (
@@ -19,7 +20,9 @@ const App = () => {
               </div>
               <div className="flip-card-back">
                 <p>Stay Ahead<br/>Become a member, attend our events, and contribute to cutting-edge projects.<br/>Whether you're an AI enthusiast, a developer, or simply curious about the possibilities, there's a place for you here.</p>
+                <Link to="contact">
                 <button className="contact-btn">Contact Us</button>
+                </Link>
               </div>
             </div>
           </div>
