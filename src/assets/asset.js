@@ -26,6 +26,8 @@ import Swati from "./Swati.jpg"
 import Mehvish from "./Mehvish.jpg"
 import Hardik from "./Hardik.jpg"
 import Akansha from "./Akansha.jpg"
+import Ujjwal from "./Ujjwal.jpg"
+
 
 export const asset={
     logo,
@@ -55,7 +57,8 @@ export const asset={
     Mehvish,
     Hardik,
     Swati,
-    Akansha
+    Akansha,
+    Ujjwal
 
 
 }

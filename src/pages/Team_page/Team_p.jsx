@@ -45,7 +45,6 @@ const Team_p = () => {
                 <h6 className="core-team-role">Vice President</h6>
                 <p className="core-team-bio">CSE AIML 26' - Drives the club's initiatives forward, bringing creativity and dedication to every task.</p>
                 <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-instagram"></i></a>
                   <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
                   <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
                 </div>
@@ -94,7 +93,6 @@ const Team_p = () => {
                 <h6 className="core-team-role">Editorial Lead</h6>
                 <p className="core-team-bio">CSE AIML 26' - Editorial writers analyze, engage, and persuade through thoughtful, impactful written opinions. .</p>
                 <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-instagram"></i></a>
                   <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
                   <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
                 </div>
@@ -130,7 +128,6 @@ const Team_p = () => {
                 <h6 className="core-team-role">Event & Marketing Lead</h6>
                 <p className="core-team-bio">CSE AIML 26' - Contributes alot in making any event successful by making a positive marketing of it.</p>
                 <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-instagram"></i></a>
                   <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
                   <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
                 </div>
@@ -148,7 +145,6 @@ const Team_p = () => {
                 <h6 className="core-team-role">Event & Marketing Lead</h6>
                 <p className="core-team-bio">CSE AIML 26' - Contributes alot in making any event successful by making a positive marketing of it.</p>
                 <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-instagram"></i></a>
                   <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
                   <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
                 </div>
@@ -159,14 +155,13 @@ const Team_p = () => {
           <div className="core-team-member">
             <div className="core-team-card">
               <div className="core-team-image">
-                <img src={asset.Mitanshi} alt="Mitanshi Jain" />
+                <img src={asset.Ujjwal} alt="Ujjwal Dubey" />
               </div>
               <div className="core-team-details">
                 <h5 className="core-team-name">Ujjwal Dubey</h5>
                 <h6 className="core-team-role">Event & Marketing Lead</h6>
                 <p className="core-team-bio">CSE AIML 26' - Contributes alot in making any event successful by making a positive marketing of it.</p>
                 <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-instagram"></i></a>
                   <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
                   <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
                 </div>
@@ -219,7 +214,8 @@ const Team_p = () => {
                 <h5 className="core-team-name">Naman Vyas </h5>
                 <h6 className="core-team-role">Technical Team </h6>
                 <p className="core-team-bio">CSE AIML 27' - Getting Guide from Tech head to learn more about site management and concepts.</p>
-                <div className="profiles">                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
+                <div className="profiles">                  
+                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
                   <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
                 </div>
                 
@@ -237,7 +233,6 @@ const Team_p = () => {
                 <h6 className="core-team-role">Technical Team </h6>
                 <p className="core-team-bio">CSE AIML 27' - Getting Guide from Tech head to learn more about site management and concepts.</p>
                 <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-instagram"></i></a>
                   <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
                   <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
                 </div>
