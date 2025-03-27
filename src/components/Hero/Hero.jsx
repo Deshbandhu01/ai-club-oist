@@ -17,9 +17,9 @@ function Hero() {
                             <h1>Join the revolution with AI Club <p>(<b>Oriental Institute of Science and Technology, Bhopal</b>)</p></h1>
                         </div>
                         
-                        <div className="spline-scene box">
+                        {/* <div className="spline-scene box">
                                 <Spline scene="https://prod.spline.design/NO7MaCViktGW8AFI/scene.splinecode" />
-                        </div>
+                        </div> */}
                     
                     </div>
                 </div>
