@@ -48,7 +48,8 @@
   
   .image-container img {
     /* width: max-content; */
-    /* height:80vh; */
+    height:80vh;
+    width:40vw;
     border-radius: 10px;
     margin-top: 20px;
   }
