@@ -6,7 +6,7 @@ import Event from "./components/body/events/Event.jsx";
 import Resource from "./components/body/Resources/Resouce.jsx";
 import Blog from "./components/body/Blog/Blog.jsx";
 import Team from "./components/body/Team/Team.jsx";
-// import ContactSection from "./components/body/Contact/ContactSection.jsx";
+import ContactSection from "./components/body/Contact/ContactSection.jsx";
 import './Home.css'
 
 const  Home = () => {
@@ -22,7 +22,7 @@ const  Home = () => {
       <Resource />
       <Blog />
       <Team />
-      {/* <ContactSection /> */}
+      <ContactSection />
       
     </>
     );
