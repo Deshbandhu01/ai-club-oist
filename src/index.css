@@ -16,3 +16,11 @@ body {
 .navbar, .nav-left, .nav-right, a {
     text-transform: none !important; /* Force no uppercase transformation */
 }
+
+
+@media (max-width: 900px) {
+
+    body{
+        scroll-behavior: smooth;
+    }
+}
