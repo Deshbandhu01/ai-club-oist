@@ -1,13 +1,13 @@
 import React from 'react';
-import './Mag1.css';
+import './Mag2.css';
 import { asset } from '../../assets/asset';
-function Mag1() {
+function Mag2() {
   return (
     <div className="container_mag">
       <h1>Cypher-30</h1>
       <div className="content_mag">
         <div className="text-section">
-          <h2>Edge AI - The Annual Departmental Magazine 1.0  (2023)</h2>
+          <h2>Edge AI - The Annual Departmental Magazine 2.0  (2024)</h2>
           <p><strong>Greetings Everyone! ✨</strong></p>
           <p>
             Department of CSE-AIML is excited to announce the launch of the
@@ -28,4 +28,4 @@ function Mag1() {
   );
 }
 
-export default Mag1;
+export default Mag2;

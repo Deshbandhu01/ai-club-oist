@@ -87,7 +87,7 @@ const Event_p= () => {
         <p className="section-subtitle">Important Resources</p>              
         </div> 
         <div className="resource-item">
-          <a href="/events/AIEdge" className="resource-link">
+          <Link to="Magazine_1.0">
             <div className="resource-card">
               <div className="resource-image">
                 <img 
@@ -100,10 +100,11 @@ const Event_p= () => {
                 <h6 className="resource-title">Edge AI Magazine 2023</h6>
               </div>
             </div>
-          </a>
+          
+          </Link>
         </div>
         <div className="resource-item">
-          <a href="/events/AIEdge" className="resource-link">
+          <Link to="Magazine_2.0" >
             <div className="resource-card">
               <div className="resource-image">
                 <img 
@@ -116,7 +117,7 @@ const Event_p= () => {
                 <h6 className="resource-title">Edge AI Magazine 2024</h6>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

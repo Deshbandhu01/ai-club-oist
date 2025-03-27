@@ -15,7 +15,6 @@ const Resource = () => {
         </div> 
         <div className="resource-item">
           <Link to="events/Magazine_1.0">
-          <a href="/events/AIEdge" className="resource-link">
             <div className="resource-card">
               <div className="resource-image">
                 <img 
@@ -28,11 +27,10 @@ const Resource = () => {
                 <h6 className="resource-title">Edge AI Magazine 2023</h6>
               </div>
             </div>
-          </a>
           </Link>
         </div>
         <div className="resource-item">
-          <a href="/events/AIEdge" className="resource-link">
+          <Link to="events/Magazine_2.0">
             <div className="resource-card">
               <div className="resource-image">
                 <img 
@@ -45,7 +43,7 @@ const Resource = () => {
                 <h6 className="resource-title">Edge AI Magazine 2024</h6>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
