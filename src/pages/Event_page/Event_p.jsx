@@ -53,6 +53,9 @@ const Event_p= () => {
           {/* </a> */}
           </Link>
         </div>
+
+        
+
         <div className="event-item">
           <Link to="Cypher30">
           {/* <Link to="events/Cypher30"> */}
