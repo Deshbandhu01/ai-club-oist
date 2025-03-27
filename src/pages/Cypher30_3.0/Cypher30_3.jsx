@@ -1,5 +1,5 @@
 import React from 'react';
-import './Cypher30_p.css';
+import './Cypher30_3.css';
 import { asset } from '../../assets/asset';
 
 function Cypher30_p() {
@@ -22,7 +22,18 @@ function Cypher30_p() {
           <li>👉 E-certificates will be provided to every participant for completing the challenge.</li>
           <li>👉 The challenge will be hosted on HackerRank, helping participants enhance their profiles with daily challenges.</li>
           <li>👉 Open to 1st year 2nd year and 3rd year students, regardless of skill level or coding knowledge.</li>
-          <li>👉 <strong>Rules</strong> are shared in the form of a PDF in the registration form. Please read them carefully.</li>
+          <li>👉 <strong>Rules</strong> As you all know, Cypher 30 3.0 is happening soon!
+
+For this, each week has been assigned a specific topic, and volunteers (2nd-year students) will be paired with a lead (3rd-year student) for each week.
+
+Here’s the weekly breakdown:
+Week 1: Arrays and Strings
+Week 2: Sorting and Searching
+Week 3: Recursion and Backtracking
+Week 4: Stack, Queue, and Linked List
+Week 5: Dynamic Programming and Graphs
+
+I will now share the list of assigned teams. Stay tuned!</li>
         </ul>
         <a href="https://forms.gle/Hc69ATQZkJ7TWxXB7" className="register-btn">Register Here →</a>
       </div>
