@@ -64,7 +64,7 @@ const Event= () => {
                 />
               </div>
               <div className="event-info">
-                <h6 className="event-title">Cypher-30</h6>
+                <h6 className="event-title">Cypher-30 3.0</h6>
               </div>
             </div>
           {/* </a> */}
