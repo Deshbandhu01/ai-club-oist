@@ -40,7 +40,8 @@ function Blog_p(){
                     />
                     <h3>Cypher 3.0 Guide</h3>
                     <p>Coming Soon ...</p>
-                    <Link to="/Cypher30" >Read More &rarr;</Link>
+                    <a href="Cypher30_3.0_Rule_Guide.pdf" download>Read More &rarr;</a>
+                    {/* <Link to="/Cypher30" >Read More &rarr;</Link> */}
                     </div>
 
                     <div className="blog-card">
