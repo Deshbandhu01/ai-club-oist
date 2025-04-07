@@ -37,9 +37,7 @@ const BlogSection = () => {
           />
           <h3>Cypher 3.0 Guide</h3>
           <p>Going on ...</p>
-          <a href="Cypher30_3.0_Rule_Guide.pdf" download>Read More &rarr;
-          {/* <Link to="/Cypher30" >Read More &rarr;</Link> */}
-          </a>
+          <a href="Cypher30_3.0_Rule_Guide.pdf" download>Read More &rarr;</a>
         </div>
 
         <div className="blog-card">

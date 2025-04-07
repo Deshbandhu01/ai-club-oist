@@ -14,6 +14,7 @@ import Logo_p from './pages/Logo_page/Logo_p.jsx';
 import Mag1 from './pages/Magzine_1.0/MAg1.jsx';
 import Home from './Home.jsx';
 import Mag2 from './pages/Magzine_2.0/Mag2.jsx';
+import Cypher30_3 from './pages/Cypher30_3.0/Cypher30_3.jsx';
 
 function App() {
   return(
@@ -31,6 +32,7 @@ function App() {
         <Route path="/events/LogoDesign" element={<Logo_p />} />
         <Route path="/events/Magazine_1.0" element={<Mag1 />} />
         <Route path="/events/Magazine_2.0" element={<Mag2 />} />
+        <Route path="/latest" element={<Cypher30_3 />} />
       </Routes>
       <Footer />
       </Router>

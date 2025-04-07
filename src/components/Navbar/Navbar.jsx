@@ -24,6 +24,7 @@ const Navbar = () => {
       {/* Right-hand side: Menu items */}
       <div className= {`navbar-right  ${isOpen ? 'open' : ''}`}>
         <ul>
+          <li ><Link to="/Latest" className="uno"><p>💥</p>Latest</Link></li>
           <li ><Link to="/events" className="uno"><i class="fa-solid fa-calendar-check"></i>Events</Link></li>
           <li ><Link to="/team" className="uno"><i class="fa-solid fa-users"></i>Team</Link></li>
           <li ><Link to="/blog" className="uno"><i class="fa-solid fa-message"></i>Blog</Link></li>

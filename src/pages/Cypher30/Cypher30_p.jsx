@@ -1,11 +1,12 @@
 import React from 'react';
 import './Cypher30_p.css';
 import { asset } from '../../assets/asset';
+import { Link } from 'react-router-dom';
 
 function Cypher30_p() {
   return (
     <>
-    <div className="link_name">/ Cypher30</div>
+    <div className="link_name">/ Cypher30_3.0</div>
     <div className="container_cyp">
       <div className="cont_cypher">
       <div className="cy_content">
@@ -43,6 +44,7 @@ function Cypher30_p() {
           <li>👉 Week 5:- <strong>Dynamic Programming & Graphs.</strong></li>
         </ul>
         <a href="https://forms.gle/Hc69ATQZkJ7TWxXB7" className="register-btn">Register Here →</a>
+        <Link to="/latest">Solutions are Here</Link>
       </div>
       <div className="image-section_cy">
         <img src={asset.Cypher_30_win} alt="Cypher 30 Challenge" className='Cypher30_1' />
