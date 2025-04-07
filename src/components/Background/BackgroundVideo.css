@@ -14,7 +14,8 @@
     height: 100vh;
     object-fit: cover;
     z-index: -1; 
-    margin:0px
+    margin:0px;
+    scroll-behavior: smooth;
   }
 
   
