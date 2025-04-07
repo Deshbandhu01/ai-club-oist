@@ -17,10 +17,10 @@ function Cypher30_3() {
 
   // Leaderboard state
   const [players, setPlayers] = useState([
-    { name: 'Alice', score: 120 },
-    { name: 'Bob', score: 150 },
-    { name: 'Charlie', score: 130 },
-    { name: 'Dave', score: 110 },
+    // { name: 'Alice', score: 120 },
+    // { name: 'Bob', score: 150 },
+    // { name: 'Charlie', score: 130 },
+    // { name: 'Dave', score: 110 },
   ]);
 
   const [newPlayer, setNewPlayer] = useState({ name: '', score: '' });
@@ -47,7 +47,7 @@ function Cypher30_3() {
 
   return (
     <>
-      <div className="link_name">/ Cypher30</div>
+      <div className="link_name">/ Latest</div>
       <div className="container_cyp">
         <div className="cont_cypher">
           <div className="cy_content">
@@ -68,14 +68,27 @@ function Cypher30_3() {
             </ul>
 
             <h3>💥💥 Solutions for the Week-by-Topics of <strong>Cypher30 3.0</strong> are below 💥💥</h3>
-            <ul>
-              <li>👉 <a href="Solution_of_cypher30_Week_1_questions" download>Week 1 &rarr; (Solutions are live)</a></li>
-              <li>👉 <a href="#" onClick={handlePopup}>Week 2 &rarr; (Coming soon!)</a></li>
-              <li>👉 <a href="#" onClick={handlePopup}>Week 3 &rarr; (Coming soon!)</a></li>
-              <li>👉 <a href="#" onClick={handlePopup}>Week 4 &rarr; (Coming soon!)</a></li>
+            <div className="solutions_box">
+              <div className='Solu_sec'>
+              👉 <a href="Solution_of_cypher30_Week_1_questions.pdf" download>Week 1 &rarr; (Solutions are live)</a>
+              </div>
+              <div className='Solu_sec'>
+              👉 <a href="#" onClick={handlePopup}>Week 2 &rarr; (Coming soon!)</a>
+              </div>
+
+              <div className='Solu_sec'>
+              👉 <a href="#" onClick={handlePopup}>Week 3 &rarr; (Coming soon!)</a>
+              </div>
+
+              <div className='Solu_sec'>
+              👉 <a href="#" onClick={handlePopup}>Week 4 &rarr; (Coming soon!)</a>
+              </div>
+
               {/* Clickable list items for weeks without a link */}
-              <li>👉 <a href="#" onClick={handlePopup}>Week 5 &rarr; (Coming soon!)</a></li>
-            </ul>
+              <div className='Solu_sec'>
+              👉 <a href="#" onClick={handlePopup}>Week 5 &rarr; (Coming soon!)</a>
+              </div>
+              </div>
           </div>
           <div className="image-section_cy">
             <img src={asset.Cypher_30_win} alt="Cypher 30 Challenge" className='Cypher30_1' />
@@ -94,9 +107,9 @@ function Cypher30_3() {
       )}
 
       {/* Leaderboard Section */}
-      <div className="leaderboard-container">
-        <h1>Leaderboard</h1>
-        <table>
+      <div className="Leader_board">
+      <h2>💥LeaderBoard💥</h2>
+      <table>
           <thead>
             <tr>
               <th>Rank</th>
@@ -114,9 +127,8 @@ function Cypher30_3() {
             ))}
           </tbody>
         </table>
-      </div>
-
-      
+        <p>Leaderboard will be updated as soon as possible.</p>
+        </div>
     </>
   );
 }

@@ -199,15 +199,91 @@ button:hover {
   background-color: #0056b3;
 }
 
-/* Leaderboard style */
+/* Solution section */
 
-.leaderboard-container {
+.Solu_sec{
+  width:20vh;
+  height: 20vh;
+  background-color:#27202B;
+  border-radius:10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  margin-top: 50px;
+  margin: auto;
+  color:red;
+  margin-top:20px;
+}
+
+.Solu_sec a{
+  color:burlywood;
+  font-weight: 700;
+}
+
+.solutions_box{
+  display:flex;
+  justify-content:center;
+  gap:10px;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.Slog{
+  width:90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin:auto;
+}
+
+/* Responsive Design Solution Sec*/
+@media (max-width: 900px) {
+  .solutions_box{
+    width:auto;
+    height: auto;
+    /* background-color:#27202B; */
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    color:red;
+    margin-top:20px;
+  }
+  .Solu_sec{display: flex;
+    gap:10px;
+    width:auto;
+    height:30vh;
+    padding:10%
+  }
+  .Solu_sec{
+    font-size: 1.2rem;
+  }
+}
+
+.Leader_board{
+  margin-top:20px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+.Leader_board h2{
+  font-size: 2.5rem;
+  color: #0056b3;
+}
+
+.Leader_board p{
+  text-align: center;
 }
 
 table {
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
   border-collapse: collapse;
 }
