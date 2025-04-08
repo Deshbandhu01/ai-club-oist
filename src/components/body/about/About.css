@@ -217,6 +217,14 @@ body {
       display: flex;
       flex-direction: column;
     }
+
+    .flip-card{
+      height: 40vh;
+    }
+
+    .contact-btn{
+      width:fit-content
+    }
     /* .about-heading{
       display: grid;
       grid-column: auto;
