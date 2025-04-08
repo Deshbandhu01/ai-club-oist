@@ -27,10 +27,7 @@ const Team_p = () => {
                 <h5 className="core-team-name">Mitanshi Jain</h5>
                 <h6 className="core-team-role">President</h6>
                 <p className="core-team-bio">CSE AIML 26' - Initiates and leads club projects, fostering a positive and inclusive club environment.</p>
-                <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
-                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
-                </div>
+                
                 
               </div>
             </div>
@@ -44,10 +41,7 @@ const Team_p = () => {
                 <h5 className="core-team-name">Zeeshan Lucknowi</h5>
                 <h6 className="core-team-role">Vice President</h6>
                 <p className="core-team-bio">CSE AIML 26' - Drives the club's initiatives forward, bringing creativity and dedication to every task.</p>
-                <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
-                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
-                </div>
+                
               </div>
             </div>
           </div>
@@ -60,10 +54,7 @@ const Team_p = () => {
                 <h5 className="core-team-name">Khush Paliwal</h5>
                 <h6 className="core-team-role">Secretary</h6>
                 <p className="core-team-bio">CSE AIML 26' - Ensures smooth communication within the club, and coordinating events, activities.</p>
-                <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
-                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
-                </div>
+                
               </div>
             </div>
           </div>
@@ -76,10 +67,7 @@ const Team_p = () => {
                 <h5 className="core-team-name">Deshbandhu Badhauliya</h5>
                 <h6 className="core-team-role">Technical Head</h6>
                 <p className="core-team-bio">CSE AIML 26' - Manage Technical Tasks and contributing in making events successful .</p>
-                <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
-                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
-                </div>
+                
               </div>
             </div>
           </div>
@@ -92,10 +80,7 @@ const Team_p = () => {
                 <h5 className="core-team-name">Taru Shrivastava</h5>
                 <h6 className="core-team-role">Editorial Lead</h6>
                 <p className="core-team-bio">CSE AIML 26' - Editorial writers analyze, engage, and persuade through thoughtful, impactful written opinions. .</p>
-                <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
-                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
-                </div>
+                
                 
               </div>
             </div>
@@ -110,10 +95,7 @@ const Team_p = () => {
                 <h5 className="core-team-name">Akansha Sinha</h5>
                 <h6 className="core-team-role">Social Media & Design</h6>
                 <p className="core-team-bio">CSE AIML 26' - Manages the Club Official Advertisment handles and make posts for events.</p>
-                <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
-                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
-                </div>
+                
                 
               </div>
             </div>
@@ -127,10 +109,7 @@ const Team_p = () => {
                 <h5 className="core-team-name">Utkarsh Pathak</h5>
                 <h6 className="core-team-role">Event & Marketing Lead</h6>
                 <p className="core-team-bio">CSE AIML 26' - Contributes alot in making any event successful by making a positive marketing of it.</p>
-                <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
-                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
-                </div>
+                
                 
               </div>
             </div>
@@ -144,10 +123,7 @@ const Team_p = () => {
                 <h5 className="core-team-name">Ishan Gupta</h5>
                 <h6 className="core-team-role">Event & Marketing Lead</h6>
                 <p className="core-team-bio">CSE AIML 26' - Contributes alot in making any event successful by making a positive marketing of it.</p>
-                <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
-                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
-                </div>
+                
                 
               </div>
             </div>
@@ -161,10 +137,7 @@ const Team_p = () => {
                 <h5 className="core-team-name">Ujjwal Dubey</h5>
                 <h6 className="core-team-role">Event & Marketing Lead</h6>
                 <p className="core-team-bio">CSE AIML 26' - Contributes alot in making any event successful by making a positive marketing of it.</p>
-                <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
-                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
-                </div>
+                
                 
               </div>
             </div>
@@ -196,11 +169,8 @@ const Team_p = () => {
               <div className="core-team-details">
                 <h5 className="core-team-name">Aman Kumar</h5>
                 <h6 className="core-team-role">Technical Team </h6>
-                <p className="core-team-bio">CSE AIML 27' - Getting Guide from Tech head to learn more about site management and concepts.</p>
-                <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
-                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
-                </div>
+                <p className="core-team-bio">CSE AIML '27 - Receiving guidance from the Tech Head to learn more about site management and related concepts.</p>
+                
               </div>
             </div>
           </div>
@@ -213,11 +183,8 @@ const Team_p = () => {
               <div className="core-team-details">
                 <h5 className="core-team-name">Naman Vyas </h5>
                 <h6 className="core-team-role">Technical Team </h6>
-                <p className="core-team-bio">CSE AIML 27' - Getting Guide from Tech head to learn more about site management and concepts.</p>
-                <div className="profiles">                  
-                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
-                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
-                </div>
+                <p className="core-team-bio">CSE AIML '27 - Receiving guidance from the Tech Head to learn more about site management and related concepts.</p>
+                
                 
               </div>
             </div>
@@ -231,11 +198,8 @@ const Team_p = () => {
               <div className="core-team-details">
                 <h5 className="core-team-name">Archana Nair</h5>
                 <h6 className="core-team-role">Technical Team </h6>
-                <p className="core-team-bio">CSE AIML 27' - Getting Guide from Tech head to learn more about site management and concepts.</p>
-                <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
-                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
-                </div>
+                <p className="core-team-bio">CSE AIML '27 - Receiving guidance from the Tech Head to learn more about site management and related concepts.</p>
+                
               </div>
             </div>
           </div>
@@ -265,11 +229,8 @@ const Team_p = () => {
               <div className="core-team-details">
                 <h5 className="core-team-name">Mahi Paliwal</h5>
                 <h6 className="core-team-role"> Editorial Team </h6>
-                <p className="core-team-bio">CSE AIML 27' - Working under Editorial head to learn more about editing posts and grow more.</p>
-                <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
-                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
-                </div>
+                <p className="core-team-bio">CSE AIML '27 - Working under the Editorial Head to learn more about editing posts and further develop skills.</p>
+                
                 
               </div>
             </div>
@@ -282,11 +243,8 @@ const Team_p = () => {
               <div className="core-team-details">
                 <h5 className="core-team-name">Sunidhi Patle</h5>
                 <h6 className="core-team-role"> Editorial Team </h6>
-                <p className="core-team-bio">CSE AIML 27' - Working under Editorial head to learn more about editing posts and grow more.</p>
-                <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
-                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
-                </div>
+                <p className="core-team-bio">CSE AIML '27 - Working under the Editorial Head to learn more about editing posts and further develop skills.</p>
+                
               </div>
             </div>
           </div>
@@ -317,11 +275,8 @@ const Team_p = () => {
               <div className="core-team-details">
                 <h5 className="core-team-name">Anshul Kushwaha</h5>
                 <h6 className="core-team-role"> Social Media & Design Team </h6>
-                <p className="core-team-bio">CSE AIML 27' - Learning from Design &Social media head to grew more in this field .</p>
-                <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
-                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
-                </div>
+                <p className="core-team-bio">CSE AIML '27 - Learning from the Design & Social Media Head to grow further in this field.</p>
+                
                 
               </div>
             </div>
@@ -334,11 +289,8 @@ const Team_p = () => {
               <div className="core-team-details">
                 <h5 className="core-team-name">Vedant Agrawal</h5>
                 <h6 className="core-team-role"> Social Media & Design Team </h6>
-                <p className="core-team-bio">CSE AIML 27' - Learning from Design &Social media head to grew more in this field .</p>
-                <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
-                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
-                </div>
+                <p className="core-team-bio">CSE AIML '27 - Learning from the Design & Social Media Head to grow further in this field.</p>
+                
               </div>
             </div>
           </div>
@@ -350,11 +302,8 @@ const Team_p = () => {
               <div className="core-team-details">
                 <h5 className="core-team-name">Sarthak Dwivedi</h5>
                 <h6 className="core-team-role"> Social Media & Design Team </h6>
-                <p className="core-team-bio">CSE AIML 27' - Learning from Design &Social media head to grew more in this field .</p>
-                <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
-                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
-                </div>
+                <p className="core-team-bio">CSE AIML '27 - Learning from the Design & Social Media Head to grow further in this field.</p>
+                
               </div>
             </div>
           </div>
@@ -385,11 +334,8 @@ const Team_p = () => {
               <div className="core-team-details">
                 <h5 className="core-team-name">Muskan Gurjar</h5>
                 <h6 className="core-team-role"> Social Media & Design Team </h6>
-                <p className="core-team-bio">CSE AIML 27' - Working under Social media & Design head to learn about designing & SM.</p>
-                <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
-                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
-                </div>
+                <p className="core-team-bio">CSE AIML '27 - Working under the Social Media & Design Head to learn about design and social media.</p>
+                
                 
               </div>
             </div>
@@ -402,11 +348,8 @@ const Team_p = () => {
               <div className="core-team-details">
                 <h5 className="core-team-name">Swati Mishra</h5>
                 <h6 className="core-team-role"> Social Media & Design Team </h6>
-                <p className="core-team-bio">CSE AIML 27' - Working under Social media & Design head to learn about designing & SM.</p>
-                <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
-                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
-                </div>
+                <p className="core-team-bio">CSE AIML '27 - Working under the Social Media & Design Head to learn about design and social media.</p>
+                
               </div>
             </div>
           </div>
@@ -418,11 +361,8 @@ const Team_p = () => {
               <div className="core-team-details">
                 <h5 className="core-team-name">Mehvish Khan</h5>
                 <h6 className="core-team-role"> Social Media & Design Team </h6>
-                <p className="core-team-bio">CSE AIML 27' - Working under Social media & Design head to learn about designing & SM.</p>
-                <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
-                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
-                </div>
+                <p className="core-team-bio">CSE AIML '27 - Working under the Social Media & Design Head to learn about design and social media.</p>
+                
               </div>
             </div>
           </div>
@@ -434,11 +374,8 @@ const Team_p = () => {
               <div className="core-team-details">
                 <h5 className="core-team-name">Hardik Rahangdale</h5>
                 <h6 className="core-team-role"> Social Media & Design Team </h6>
-                <p className="core-team-bio">CSE AIML 27' - Working under Social media & Design head to learn about designing & SM.</p>
-                <div className="profiles">
-                  <a href="" className='prof'><i class="fa-brands fa-github"></i></a>
-                  <a href="" className='prof'><i class="fa-brands fa-linkedin"></i></a>
-                </div>
+                <p className="core-team-bio">CSE AIML '27 - Working under the Social Media & Design Head to learn about design and social media.</p>
+                
               </div>
             </div>
           </div>

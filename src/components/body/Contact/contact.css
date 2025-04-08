@@ -206,16 +206,18 @@
 
     .forms{
       width:90vw;
+      height:90vh;
       margin:auto;
       height:auto;
       display: flex;
       justify-content: center;
       align-items: center;
+      overflow: hidden;
     }
     .cont_us{
       width:100vw;
-      height:100vh;
-      transform: scale(1.05);
+      height:60vh;
+      transform: scale(1.00);
       margin:auto;
     }
     

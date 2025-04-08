@@ -12,7 +12,7 @@ body {
 .main-container{
   
   /* height:60vh; */
-  width:100vb;
+  width:92vw;
   margin:auto;
   display:flex;
   justify-content: center;
@@ -22,7 +22,8 @@ body {
 }
 
 /* Main Content Layout */
-.content {
+.content_about {
+  width:100vw;
   display: flex;
   align-items: flex-start; 
   justify-content: space-between;
@@ -50,6 +51,7 @@ body {
   text-shadow: 0 0 10px rgba(126, 184, 237, 0.8);
   position: relative;
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 10px;
 }
@@ -62,8 +64,8 @@ body {
 /* Flip Card */
 .flip-card {
   position: relative;
-  width: 320px;
-  height: 290px;
+  width: 30vw;
+  height: 35vh;
   perspective: 1000px;
   /* margin-left: 50px;  */
 }
@@ -132,6 +134,7 @@ body {
 }
 
 .features-container {
+  width:60vw;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
@@ -149,7 +152,7 @@ body {
   transition: 0.3s;
   border-left: 4px solid #7eb8ed;
   box-shadow: 0 4px 6px rgba(126, 184, 237, 0.2);
-  width:40vb
+  width:28vw;
 }
 
 .feature-card:hover {
@@ -200,13 +203,20 @@ body {
 
   /* Responsive Design */
   @media (max-width: 900px) {
+    .about-heading{ 
+      margin-top: 25px;
+    }
+
     .main-container{
       height:auto;
       width:100vw;
       margin:auto;
       /* margin-top:15px */
     }
-    
+    .content_about{
+      display: flex;
+      flex-direction: column;
+    }
     /* .about-heading{
       display: grid;
       grid-column: auto;
@@ -245,6 +255,9 @@ body {
     .features-container{
       display: flex;
       flex-direction: column;
+    }
+    .feature-card{
+      width:90vw;
     }
     .core-team-card{
       height:auto;

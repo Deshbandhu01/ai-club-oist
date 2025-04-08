@@ -47,6 +47,11 @@
     gap:6%;
   }
 
+  .uno:hover{
+    color:chartreuse;
+    transition: .5s ease-in-out;
+  }
+
   .navbar-right ul li a {
     color: white;
     text-decoration: none;
@@ -97,5 +102,18 @@
     .hamburger {
       display: flex;
     }
+      /* Add a smooth transition when the menu opens/closes */
+.navbar-right {
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-right.open {
+  transform: translateX(0);
+}
+
+.navbar-right {
+  transform: translateX(100%);
+}
+
   }
   

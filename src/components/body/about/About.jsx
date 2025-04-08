@@ -5,14 +5,13 @@ import { Link } from "react-router-dom";
 const App = () => {
   return (
     <>
+    
+    <h1 className="about-heading">About Us</h1>
     <div className="main-container">
-      <div className="content">
+      <div className="content_about">
+      
         {/* Left Section: About AI Club */}
         <div className="about-section">
-          <div className="heading_name">
-          <h1 className="about-heading">About Us</h1>
-          </div>
-          
           <div className="flip-card">
             <div className="flip-card-inner">
               <div className="flip-card-front">

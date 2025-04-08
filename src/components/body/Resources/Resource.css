@@ -1,6 +1,6 @@
 /* General styles for the resources section */
 .resources-section {
-    padding: 20px;
+    /* padding: 20px; */
     background-color: #f9f9f9;
     margin:auto;
     width:96%;
@@ -43,7 +43,7 @@
   
   /* Image section of the resource card */
   .resource-image {
-    width: 100%;
+    width: 107%;
     height: 180px;
     overflow: hidden;
   }
@@ -84,9 +84,19 @@
     font-size:1.6rem
   }
 
+  .resource-item{
+    background-color:rgba(27, 35, 189, 0.2);
+  }
 
   /* Responsive Design */
 @media (max-width: 900px) {
+  
+  .resource-image {
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+  }
+
   .resource-section{
     height:auto;
     width:100vw;
@@ -94,7 +104,9 @@
     margin:auto;
     /* margin-top:15px */
   }
-  
+  .resource_card{
+    background-color:rgba(27, 35, 189, 0.2);
+  }
   .resource-grid{
     display: flex;
     flex-direction: column;
@@ -105,5 +117,5 @@
     flex-direction: column;
     width:90vw;
     margin:auto;
-  } 
+  }
 }
