@@ -1,49 +1,85 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Cypher30_3.css';
 import { asset } from '../../assets/asset';
 
 function Cypher30_3() {
-  // State to handle the popup
   const [showPopup, setShowPopup] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(false); // ⬅️ NEW
 
+  const solutions = [
+    {
+      text: '👉 Week 1 → (Solutions are live)',
+      link: 'Solution_of_cypher30_Week_1_questions.pdf',
+      comingSoon: false,
+    },
+    {
+      text: '👉 Week 2 → (Solutions are live)',
+      link: 'Solution_of_cypher30_Week_2_questions.pdf',
+      comingSoon: false,
+    },
+    {
+      text: '👉 Week 3 → (Solutions are live)',
+      link: 'Solution_of_cypher30_Week_3_questions.pdf',
+      comingSoon: false,
+    },
+    {
+      text: '👉 Week 4 → (Coming soon!)',
+      link: '#',
+      comingSoon: true,
+    },
+    {
+      text: '👉 Week 5 → (Coming soon!)',
+      link: '#',
+      comingSoon: true,
+    }
+  ];
+
+  
   const handlePopup = () => {
     setShowPopup(true);
-
-    // Hide the popup after 3 seconds
-    setTimeout(() => {
-      setShowPopup(false);
-    }, 3000);
+    setTimeout(() => setShowPopup(false), 3000);
   };
 
-  // Leaderboard state
-  const [players, setPlayers] = useState([
-    // { name: 'Alice', score: 120 },
-    // { name: 'Bob', score: 150 },
-    // { name: 'Charlie', score: 130 },
-    // { name: 'Dave', score: 110 },
-  ]);
+    // Leaderboard state
+    const [players, setPlayers] = useState([
+      { name: 'Alice', score: 120 },
+      { name: 'Bob', score: 150 },
+      // { name: 'Charlie', score: 130 },
+      // { name: 'Dave', score: 110 },
+    ]);
+  
+    const [newPlayer, setNewPlayer] = useState({ name: '', score: '' });
+  
+    // Handle form input change
+    const handleInputChange = (e) => {
+      const { name, value } = e.target;
+      setNewPlayer((prev) => ({
+        ...prev,
+        [name]: value,
+      }));
+    };
+  
+    // Handle adding a new player
+    const handleAddPlayer = () => {
+      if (newPlayer.name && newPlayer.score) {
+        setPlayers((prev) => [...prev, { ...newPlayer, score: parseInt(newPlayer.score) }]);
+        setNewPlayer({ name: '', score: '' });
+      }
+    };
+  
+    // Sort the leaderboard data by score in descending order
+    const sortedPlayers = [...players].sort((a, b) => b.score - a.score);
 
-  const [newPlayer, setNewPlayer] = useState({ name: '', score: '' });
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 900);
+    };
 
-  // Handle form input change
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setNewPlayer((prev) => ({
-      ...prev,
-      [name]: value,
-    }));
-  };
-
-  // Handle adding a new player
-  const handleAddPlayer = () => {
-    if (newPlayer.name && newPlayer.score) {
-      setPlayers((prev) => [...prev, { ...newPlayer, score: parseInt(newPlayer.score) }]);
-      setNewPlayer({ name: '', score: '' });
-    }
-  };
-
-  // Sort the leaderboard data by score in descending order
-  const sortedPlayers = [...players].sort((a, b) => b.score - a.score);
+    handleResize(); // Check on mount
+    window.addEventListener('resize', handleResize); // Re-check on resize
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   return (
     <>
@@ -60,7 +96,7 @@ function Cypher30_3() {
 
             <h3>💥💥 Week by Topics for <strong>Cypher30 3.0</strong> are below 💥💥</h3>
             <ul>
-              <li>👉 Week 1:- <strong>Array & String.</strong></li>
+              <li>👉 Week 1:- <strong >Array & String.</strong></li>
               <li>👉 Week 2:- <strong>Sorting & Searching.</strong></li>
               <li>👉 Week 3:- <strong>Recursion & Backtracking.</strong></li>
               <li>👉 Week 4:- <strong>Stack,Queue & Linked List.</strong></li>
@@ -68,27 +104,48 @@ function Cypher30_3() {
             </ul>
 
             <h3>💥💥 Solutions for the Week-by-Topics of <strong>Cypher30 3.0</strong> are below 💥💥</h3>
-            <div className="solutions_box">
-              <div className='Solu_sec'>
-              👉 <a href="Solution_of_cypher30_Week_1_questions.pdf" download>Week 1 &rarr; (Solutions are live)</a>
-              </div>
-              <div className='Solu_sec'>
-              👉 <a href="#" onClick={handlePopup}>Week 2 &rarr; (Coming soon!)</a>
-              </div>
 
-              <div className='Solu_sec'>
-              👉 <a href="#" onClick={handlePopup}>Week 3 &rarr; (Coming soon!)</a>
+            {/* 👉 Solution Box */}
+            {isMobile ? (
+              <div className="solutions_box">
+                {solutions.map((solution, index) => (
+                  <div className='Solu_sec' key={index}>
+                    {solution.comingSoon ? (
+                      <a href="#" onClick={handlePopup}>{solution.text}</a>
+                    ) : (
+                      <a href={solution.link} download>{solution.text}</a>
+                    )}
+                  </div>
+                ))}
               </div>
+            ) : (
+              <div className="solutions_box">
+                <button
+                  className="nav-button"
+                  onClick={() => setCurrentIndex((prev) => Math.max(prev - 1, 0))}
+                  disabled={currentIndex === 0}
+                >
+                  ⬅ Prev
+                </button>
 
-              <div className='Solu_sec'>
-              👉 <a href="#" onClick={handlePopup}>Week 4 &rarr; (Coming soon!)</a>
-              </div>
+                <div className='Solu_sec'>
+                  {solutions[currentIndex].comingSoon ? (
+                    <a href="#" onClick={handlePopup}>{solutions[currentIndex].text}</a>
+                  ) : (
+                    <a href={solutions[currentIndex].link} download>{solutions[currentIndex].text}</a>
+                  )}
+                </div>
 
-              {/* Clickable list items for weeks without a link */}
-              <div className='Solu_sec'>
-              👉 <a href="#" onClick={handlePopup}>Week 5 &rarr; (Coming soon!)</a>
+                <button
+                  className="nav-button"
+                  onClick={() => setCurrentIndex((prev) => Math.min(prev + 1, solutions.length - 1))}
+                  disabled={currentIndex === solutions.length - 1}
+                >
+                  Next ➡
+                </button>
               </div>
-              </div>
+            )}
+
           </div>
           <div className="image-section_cy">
             <img src={asset.Cypher_30_win} alt="Cypher 30 Challenge" className='Cypher30_1' />
@@ -108,8 +165,8 @@ function Cypher30_3() {
 
       {/* Leaderboard Section */}
       <div className="Leader_board">
-      <h2>💥LeaderBoard💥</h2>
-      <table>
+        <h2>💥LeaderBoard💥</h2>
+        <table>
           <thead>
             <tr>
               <th>Rank</th>
@@ -127,8 +184,8 @@ function Cypher30_3() {
             ))}
           </tbody>
         </table>
-        <p>Leaderboard will be updated as soon as possible.</p>
-        </div>
+        <p>The leaderboard is updated every Wednesday..</p>
+      </div>
     </>
   );
 }
