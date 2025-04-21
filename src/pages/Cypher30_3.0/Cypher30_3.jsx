@@ -46,7 +46,7 @@ function Cypher30_3() {
       { name: 'Sneha Singh', score: 120 , Branch:'CSE-Aiml',Year:'3rd' ,College:'OIST'},
       { name: 'Vidhika Thakre', score: 120 , Branch:'CSE-Aiml',Year:'2nd' ,College:'OIST '},
       { name: 'Punit Punde', score: 120 , Branch:'CSE-Aiml',Year:'3rd' ,College:'OIST'},
-      { name: 'Kunal Jamne', score: 120 , Branch:'CSE-Aiml',Year:'2nd' ,College:'OIST '},
+      { name: 'Kunal Jamne', score: 120 , Branch:'CSE-Aiml',Year:'3rd' ,College:'OIST '},
       { name: 'Nikhil Patel', score: 120 , Branch:'CSE-Aiml',Year:'3rd' ,College:'OIST'},
       // { name: 'Vidhika Thakre', score: 120 , Branch:'CSE-Aiml',Year:'2nd' ,College:'OIST '},
       
