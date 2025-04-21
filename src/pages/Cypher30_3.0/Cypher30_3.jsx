@@ -9,6 +9,11 @@ function Cypher30_3() {
 
   const solutions = [
     {
+      text: '💥Hot💥 👉 Week 3 → (Solutions are live)',
+      link: 'Solution_of_cypher30_Week_3_questions.pdf',
+      comingSoon: false,
+    },
+    {
       text: '👉 Week 1 → (Solutions are live)',
       link: 'Solution_of_cypher30_Week_1_questions.pdf',
       comingSoon: false,
@@ -16,11 +21,6 @@ function Cypher30_3() {
     {
       text: '👉 Week 2 → (Solutions are live)',
       link: 'Solution_of_cypher30_Week_2_questions.pdf',
-      comingSoon: false,
-    },
-    {
-      text: '👉 Week 3 → (Solutions are live)',
-      link: 'Solution_of_cypher30_Week_3_questions.pdf',
       comingSoon: false,
     },
     {
@@ -43,13 +43,16 @@ function Cypher30_3() {
 
     // Leaderboard state
     const [players, setPlayers] = useState([
-      { name: 'Alice', score: 120 },
-      { name: 'Bob', score: 150 },
-      // { name: 'Charlie', score: 130 },
-      // { name: 'Dave', score: 110 },
+      { name: 'Sneha Singh', score: 120 , Branch:'CSE-Aiml',Year:'3rd' ,College:'OIST'},
+      { name: 'Vidhika Thakre', score: 120 , Branch:'CSE-Aiml',Year:'2nd' ,College:'OIST '},
+      { name: 'Punit Punde', score: 120 , Branch:'CSE-Aiml',Year:'3rd' ,College:'OIST'},
+      { name: 'Kunal Jamne', score: 120 , Branch:'CSE-Aiml',Year:'2nd' ,College:'OIST '},
+      { name: 'Nikhil Patel', score: 120 , Branch:'CSE-Aiml',Year:'3rd' ,College:'OIST'},
+      // { name: 'Vidhika Thakre', score: 120 , Branch:'CSE-Aiml',Year:'2nd' ,College:'OIST '},
+      
     ]);
   
-    const [newPlayer, setNewPlayer] = useState({ name: '', score: '' });
+    const [newPlayer, setNewPlayer] = useState({ name: '', score: '', Branch:'', Year:'', College:'' });
   
     // Handle form input change
     const handleInputChange = (e) => {
@@ -102,9 +105,14 @@ function Cypher30_3() {
               <li>👉 Week 4:- <strong>Stack,Queue & Linked List.</strong></li>
               <li>👉 Week 5:- <strong>Dynamic Programming & Graphs.</strong></li>
             </ul>
-
             <h3>💥💥 Solutions for the Week-by-Topics of <strong>Cypher30 3.0</strong> are below 💥💥</h3>
-
+            
+            <hr />
+            {/* <hr />
+            <div className='hot'>
+            💥💥Hot <a href="Solution_of_cypher30_Week_1_questions.pdf" download>Week 1 &rarr; (Solutions are live)</a>💥💥
+            </div>
+            <hr /> */}
             {/* 👉 Solution Box */}
             {isMobile ? (
               <div className="solutions_box">
@@ -171,7 +179,10 @@ function Cypher30_3() {
             <tr>
               <th>Rank</th>
               <th>Name</th>
-              <th>Score</th>
+              {/* <th>Score</th> */}
+              <th>Branch</th>
+              <th>Year</th>
+              <th>College</th>
             </tr>
           </thead>
           <tbody>
@@ -179,7 +190,10 @@ function Cypher30_3() {
               <tr key={index}>
                 <td>{index + 1}</td>
                 <td>{player.name}</td>
-                <td>{player.score}</td>
+                {/* <td>{player.score}</td> */}
+                <td>{player.Branch}</td>
+                <td>{player.Year}</td>
+                <td>{player.College}</td>
               </tr>
             ))}
           </tbody>

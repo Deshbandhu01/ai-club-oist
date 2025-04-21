@@ -122,6 +122,9 @@ a:hover {
   font-size: 1.1em;
 }
 
+.hot{
+  font-size: 2rem;;
+}
 /* Navigation Buttons */
 .nav-button {
   background-color: #007BFF;
