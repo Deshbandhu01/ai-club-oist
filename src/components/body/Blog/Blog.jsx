@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 const BlogSection = () => {
   return (
     <>
+    
     <div className="blog_cont">
     <section className="blog-section">
       <div className="blogs_title">

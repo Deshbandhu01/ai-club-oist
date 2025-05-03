@@ -28,6 +28,13 @@
     width: 55%;
   }
   
+  .text-section p{
+    color:aliceblue
+  }
+
+  .text-section li{
+    color:#d4dc7c
+  }
   .image-section img {
     /* width: 400px; */
     border-radius: 10px;

@@ -48,10 +48,32 @@ body {
     background-color: #0f150e;
 }
 
+
+
+.blogs_title{
+    font-size: 3rem;
+    /* color: #7eb8ed; */
+    color:rgb(253, 137, 4);
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(126, 184, 237, 0.8);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+  }
+  
+  .about-heading::before {
+    
+    font-size: 2.5rem;
+  }
+  
+
 .blog-section h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #374151;
+    /* color: #374151; */
 }
 
 .blog-grid {
@@ -73,7 +95,7 @@ body {
 
 .blog-card img {
     width: 100%;
-    height: 230px;
+    height: 50vh;
     border-radius: 10px;
 }
 

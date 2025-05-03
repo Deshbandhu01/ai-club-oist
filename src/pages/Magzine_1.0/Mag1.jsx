@@ -10,7 +10,7 @@ function Mag1() {
 
     
     <div className="container_mag">
-      <h1>Cypher-30</h1>
+      <h1>Edge AI 2023</h1>
       <div className="content_mag">
         <div className="text-section">
           <h2>Edge AI - The Annual Departmental Magazine 1.0  (2023)</h2>

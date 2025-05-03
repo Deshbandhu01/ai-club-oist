@@ -27,7 +27,7 @@ import Mehvish from "./Mehvish.jpg"
 import Hardik from "./Hardik.jpg"
 import Akansha from "./Akansha.jpg"
 import Ujjwal from "./Ujjwal.jpg"
-
+import Edge_ai_2024 from "./Edge_ai_2024.jpg"
 
 export const asset={
     logo,
@@ -58,7 +58,8 @@ export const asset={
     Hardik,
     Swati,
     Akansha,
-    Ujjwal
+    Ujjwal,
+    Edge_ai_2024
 
 
 }

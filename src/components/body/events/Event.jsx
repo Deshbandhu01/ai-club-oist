@@ -20,7 +20,7 @@ const Event= () => {
         <Link to="events/LogoDesign">
           {/* <a href="/events/AIEdge" className="event-link"> */}
             <div className="event-card">
-              <div className="event-image">
+              <div className="event-image blog-card">
                 <img 
                   src={asset.Logo_design_comp} 
                   alt="Edge AI Magazine 2023" 
@@ -38,7 +38,7 @@ const Event= () => {
           <Link to="events/TEDx">
           {/* <a href="/events/AIEdge" className="event-link"> */}
             <div className="event-card">
-              <div className="event-image">
+              <div className="event-image blog-card">
                 <img 
                   src={asset.TEDx_comp}
                   alt="Edge AI Magazine 2023" 
@@ -56,8 +56,8 @@ const Event= () => {
           <Link to="events/Cypher30">
           {/* <Link to="events/Cypher30"> */}
           {/* <a href="/events/Cypher30" className="event-link"> */}
-            <div className="event-card cype-img">
-              <div className="event-image cyp-img">
+            <div className="event-card ">
+              <div className="event-image blog-card">
                 <img 
                   src={asset.Cypher_30_win} 
                   alt="Edge AI Magazine 2023" 

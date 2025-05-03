@@ -11,6 +11,8 @@ body {
 }
 .about_cont{
   background-color: #0f150e;
+  /* margin-top: 50px; */
+  padding-top: 30px;
 }
 
 .main-container{
@@ -101,14 +103,16 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgb(125, 211, 98);
 }
 
 /* Flip Card Front */
-.flip-card-front {
+.flip-card-front p{
   /* background: #7eb8ed; */
-  background-color: #00FFC6;
+  background-color: rgb(125, 211, 98);
   /* color: #0a192f; */
-  color:#0f150e;
+  /* color:#0f150e; */
+  color:#111;
   font-weight: bold;
 }
 
@@ -180,12 +184,20 @@ body {
   color:#e0f7fa
 }
 .feature-card:hover {
-  background: #7eb8ed;
+  background: #7c593a;
   color: #0a192f;
   transform: translateY(-5px);
   box-shadow: 0 8px 15px rgba(126, 184, 237, 0.4);
 }
 
+.feature-card:hover p{
+  color:#0a192f
+}
+
+.feature-card:hover h2{
+  color:#7a0000;
+}
+  
 /* Responsive Design */
 /* @media (max-width: 900px) {
   .main-container{
@@ -229,6 +241,9 @@ body {
   @media (max-width: 900px) {
     .about-heading{ 
       margin-top: 25px;
+    }
+    .about_cont{
+      padding-top: 100px;
     }
 
     .main-container{

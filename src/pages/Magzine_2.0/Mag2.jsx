@@ -3,12 +3,50 @@ import './Mag2.css';
 import { asset } from '../../assets/asset';
 function Mag2() {
   return (
+
+    <>
+    <div className="ki">
+    <div className="link_name">/ Edge AI 2.O</div>
+
+    
     <div className="container_mag">
-      <h1>Cypher-30</h1>
+      <h1>Edge AI 2025 </h1>
       <div className="content_mag">
         <div className="text-section">
-          <h2>Edge AI - The Annual Departmental Magazine 2.0  (2024)</h2>
+          <h2>Edge AI - The Annual Departmental Magazine 2.0  (2025)</h2>
           <p><strong>Greetings Everyone! ✨</strong></p>
+          <h2>Dear AIML Community ,</h2>
+
+<p>🚀 We’re excited to announce that EDGE AI 3.0 , our departmental magazine, is now open for contributions! This is a great opportunity to share your knowledge, experiences, and creativity with the community.</p>
+
+
+<p>We welcome:</p>
+<ul>
+<li>✅ AI/ML Articles – Trends, challenges, and breakthroughs in AI and ML.</li>
+<li>✅ Research Snapshots – Summaries of your recent research work.</li>
+<li>✅ Project Highlights – Share details about your projects.</li>
+<li>✅ AI/ML Experiences – Your personal stories, lessons, or journeys in AI.</li>
+<li>✅ Artwork & Photography – AI/ML-themed artwork and photography skills.</li>
+<li>✅ Certifications & Achievements – Got an NPTEL, NSS, or NCC certificate? Share it!</li>
+</ul>
+
+<p>📖 Need inspiration? Check out the previous edition:</p>
+<href>https://surl.li/msmqhv</href>
+
+<p>📝 Submit your work here:</p> 
+<href>https://forms.gle/MAbjBzLnAhuxgt6ZA</href>
+
+<p>For any queries, feel free to contact:</p>
+<ul>
+<li>📞 Taru Shrivastava:
+ ‪(+91) 79877 23815‬</li>
+<li>📞 Akansha Sinha:
+ ‪(+91)7354801809‬</li>
+ </ul>
+ <p>
+Let’s make EDGE AI 3.0 bigger and better together! 💡
+</p>
+          
           <p>
             Department of CSE-AIML is excited to announce the launch of the
             departmental e-magazine, <strong>Edge AI</strong>, in collaboration with AI Club. 
@@ -25,6 +63,8 @@ function Mag2() {
         </div>
       </div>
     </div>
+    </div>
+    </>
   );
 }
 

@@ -66,19 +66,11 @@
     /* height: 180px; */
     overflow: hidden;
   }
-  
-  .cype-img{
-    width:150%
-  }
-
-  .cyp-img img{
-    width:100%;  
-  }
 
   .event-img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit:fill;
 
   }
   
@@ -188,7 +180,7 @@
   }
   .event-image{
       width: 100%;
-      height: 30vh;
+      height: 50vh;
       overflow: hidden;
     
   }

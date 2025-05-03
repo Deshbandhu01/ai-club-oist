@@ -3,7 +3,7 @@
     /* background-color: aqua; */
     /* background-color: #0f150e; */
     z-index:10;
-    
+    scrollbar-width: none;          /*This is to remove scroll bar.*/
 }
 /* Ensure no global styles interfere */
 * {

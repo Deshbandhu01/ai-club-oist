@@ -6,6 +6,7 @@ import Footer from '../../Footer/Footer';
 const ContactSection = () => {
   return (
     <>
+    <div className="ki">
     <section className="contact-section">
       <div className="container_Co">
         <div className="grid-container">
@@ -52,6 +53,7 @@ const ContactSection = () => {
         </div>
       </div>
     </section>
+    </div>
     </>
   );
 };
