@@ -4,10 +4,12 @@ import { asset } from '../../../assets/asset';
 import { Link } from 'react-router-dom';
 const Team = () => {
   return (
+    <>
+    <div className="team-cont">
     <section className="core-team-section">
       <div className="core-team-container">
         <div className="core-team-heading">
-          <h3 className="core-team-title">The Core Team</h3>
+          <h3 className="core-team-title ai-tit">🤝 The Core Team</h3>
           <p className="core-team-description">Meet the dynamic and diligent faces behind the club.</p>
         </div>
         <div className="core-team-grid">
@@ -66,6 +68,8 @@ const Team = () => {
         </Link>
       </div>
     </section>
+    </div>
+    </>
   );
 };
 

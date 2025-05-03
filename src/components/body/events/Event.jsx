@@ -6,13 +6,14 @@ import { Link } from 'react-router-dom';
 const Event= () => {
   return (
     <>
-    <h2 className='ai-tit'>Explore Ai Club</h2>
+    <div className="eve-cont">
+    <h2 className='ai-tit'> 🔍 Explore Ai Club</h2>
     <div className="event-section">
       
 
       <div className="event-grid">
         <div className="event-bar">
-            <h3 className="event-title">Events</h3>
+            <h3 className="event-title1">Events</h3>
             <p className="event-subtitle">Important Resources</p>                
         </div> 
         <div className="event-item">
@@ -72,6 +73,7 @@ const Event= () => {
           {/* </Link> */}
         </div>
       </div>
+    </div>
     </div>
     </>
   );

@@ -2,6 +2,7 @@ import './Hero.css';
 import SplineScene from '../SplineScene/SplineScene';
 import BackgroundVideo from '../Background/BackgroundVideo';
 // import About from "../body/about/About.jsx"
+import { Link } from 'react-router-dom';
 
 import Spline from '@splinetool/react-spline';
 function Hero() {
@@ -19,6 +20,18 @@ function Hero() {
                         
                         <div className="spline-scene box">
                                 {/* <Spline scene="https://prod.spline.design/NO7MaCViktGW8AFI/scene.splinecode" /> */}
+                                {/* <div className="slogan">
+                                    <p>Discover the exciting world of Artificial Intelligence at OIST. We're a community of learners, innovators, and enthusiasts exploring the frontiers of AI and machine learning.</p>
+                                    <div className='butt11'>
+                                    <Link to="contact">
+                                        <button className='btnj'>Join_the_Club</button>
+                                    </Link>
+                                    <Link to="contact">
+                                        <button className='btnj'>Explore</button>
+                                    </Link>
+                                    </div>
+                                    
+                                </div> */}
                         </div>
                     
                     </div>

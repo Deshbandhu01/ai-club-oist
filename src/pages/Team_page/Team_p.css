@@ -7,16 +7,10 @@
     width:96%;
     margin:auto;
   }
-.core-d h3{ 
-  color:black
-}
+
 
 .Team-cont{
   width:100vw;
-}
-
-.core-d p{ 
-  color:black
 }
 
 .link_name{
@@ -56,15 +50,19 @@
     font-size: 36px;
     font-weight: bold;
     color: white;
-    margin-top:10px
+    margin-top:10px;
+    background-color: transparent;
   }
   
   .core-team-description {
     font-size: 18px;
     color: white;
-    margin-top: 10px;
+    margin-top: 10px;  
+    background-color: transparent;
+
   }
   
+
   /* Grid Layout for Team Members */
   .core-team-grid {
     display: grid;
@@ -203,15 +201,16 @@
   
 
   .tech-d {
-    background-color: white;
-    color:black
+    /* background-color: white; */
+    /* color:black */
+    color:#00ffc6;
   }
 
   .tech-d h3{ 
-    color:black
+    /* color:black */
   }
   
   .tech-d p{ 
-    color:black
+    /* color:black */
   }
   

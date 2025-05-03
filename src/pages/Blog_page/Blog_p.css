@@ -48,6 +48,7 @@ body {
     margin: 0 auto;
     text-align: center;
     padding: 40px 0;
+    /* background-color: #6c584c */
 }
 
 .blog-section h2 {
@@ -80,7 +81,7 @@ body {
 .blog-card h3 {
     font-size: 1.5rem;
     margin-top: 15px;
-    color: #1f2937;
+    color: #1f2937 ;
 }
 
 .blog-card p {

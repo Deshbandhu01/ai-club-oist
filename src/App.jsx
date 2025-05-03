@@ -15,6 +15,7 @@ import Mag1 from './pages/Magzine_1.0/MAg1.jsx';
 import Home from './Home.jsx';
 import Mag2 from './pages/Magzine_2.0/Mag2.jsx';
 import Cypher30_3 from './pages/Cypher30_3.0/Cypher30_3.jsx';
+// import './Home.css'
 
 function App() {
   return(

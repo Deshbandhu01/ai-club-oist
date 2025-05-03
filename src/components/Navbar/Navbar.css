@@ -4,7 +4,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #333;
+    /* background-color: #333; */
+    background-color: #111827;
     color: white;
     position: sticky;
     top: 0;
@@ -15,18 +16,23 @@
     height:7vh;
     border-radius:30px;
     text-align: center;
-    opacity: 0.7;
-
+    opacity: 0.9;
+    font-weight: 700;
   }
-  
   .navbar-left .logo img {
     height: auto;
+    opacity: 1;
+    background-color: transparent;
   }
   
+  img{
+    background-color: transparent;
+  }
   .navbar-right ul {
     list-style: none;
     display: flex;
     margin: 0;
+    
     
   }
 
@@ -45,6 +51,7 @@
   .uno{
     display:flex;
     gap:6%;
+    
   }
 
   .uno:hover{
@@ -55,6 +62,8 @@
   .navbar-right ul li a {
     color: white;
     text-decoration: none;
+    opacity: 1;
+    
   }
   
   .hamburger {
@@ -74,6 +83,7 @@
     .navbar{
       width:80vw;
       margin:auto;
+      
     }
     .navbar-right {
       display: none;

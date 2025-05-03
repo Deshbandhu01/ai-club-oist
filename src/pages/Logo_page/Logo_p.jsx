@@ -5,6 +5,7 @@ import { asset } from '../../assets/asset';
 function Logo_p() {
   return (
     <>
+    <div className="ki">
       <div className="link_name">/ Logo Designing </div>
     
     <div className="container_logo">
@@ -55,6 +56,7 @@ function Logo_p() {
         <h1>Visit our old memories and success Below</h1>
         <img src={asset.Logo_design_comp} alt="Logo Designing Contest" className='Logo_img_comp'/>
       </div>
+    </div>
     </div>
     </div>
     </>

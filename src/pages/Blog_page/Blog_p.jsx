@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 function Blog_p(){
     return(
         <>
+        <div className="ki">
         <div className="bb">
             <div className="link_name">/ Blogs</div>
             <section className="blog-section">
@@ -55,6 +56,7 @@ function Blog_p(){
                     </div>
                 </div>
             </section>
+            </div>
             </div>
         </>
     )

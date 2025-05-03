@@ -7,13 +7,13 @@
   
   .background-video {
     position: absolute;
-    opacity:.7;
+    opacity:1;
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height:110vh;
     object-fit: cover;
-    z-index: -1; 
+    z-index: 1; 
     margin:0px;
     scroll-behavior: smooth;
   }

@@ -1,19 +1,25 @@
 /* General Styling for Core Team Section */
+.team-cont{
+  width:100%;
+  background-color: #0f150e;
+}
+
 .core-team-section {
     padding: 60px 0;
-    background-color: #f7f7f7;
+    background-color: #0f150e;
+    width:97%
   }
   
   .core-team-container {
     /* max-width: 1200px; */
-    max-width:96%;
+    max-width:94%;
     margin: 0 auto;
     padding: 0 15px;
     text-align: center;
     display:flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #6c584c;
+    background-color: #112b2b;
     border-radius:10px
   }
   
@@ -25,13 +31,13 @@
   .core-team-title {
     font-size: 36px;
     font-weight: bold;
-    color: white;
+    color:rgb(253, 137, 4);
     margin-top:10px
   }
   
   .core-team-description {
     font-size: 18px;
-    color: white;
+    color:#00ffc6;
     margin-top: 10px;
   }
   

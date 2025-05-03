@@ -4,6 +4,7 @@ import { asset } from '../../assets/asset';
 const Team_p = () => {
   return (
     <>
+    <div className="ki">
     <div className="link_name">/ Team</div>
     <div className="Team-cont">
 
@@ -150,9 +151,9 @@ const Team_p = () => {
     </section>
 
     {/* Tech Team */}
-    <section className="core-team-section">
-    <div className="tech-d">
-    <h3 className="core-team-title">The Technical Team Member</h3>
+    <section className="core-team-section ">
+    <div className="tech-d ">
+    <h3 className="core-team-title ">The Technical Team Member</h3>
     <p className="core-team-description">Meet the Technical minds of the Ai club.</p>
     </div>
       <div className="core-team-container">
@@ -384,6 +385,7 @@ const Team_p = () => {
         
       </div>
     </section>
+    </div>
     </div>
   </>
   );

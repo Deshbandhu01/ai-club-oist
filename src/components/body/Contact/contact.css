@@ -2,19 +2,19 @@
 .contact-section {
     /* display: flex; */
     /* flex-wrap: wrap; */
-    padding: 50px 0;
-    background-color: #f9f9f9;
-    width:98%
+    padding: 50px 0;  
+    background-color: #0f150e;
+    /* width:98% */
   }
   
   .container_Co{
-    width: 100vw;
+    width: 94vw;
     margin: auto;
   }
   
   .contact-content{
     border-radius: 10px;
-    width:92vw;
+    /* width:92vw; */
     margin: auto;
   }
 
@@ -25,7 +25,7 @@
   }
 
   .cont_us{
-    width:92vw;
+    /* width:92vw; */
     height:100vh;
     object-fit: cover;
     display: flex;

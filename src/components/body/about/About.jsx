@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const App = () => {
   return (
     <>
-    
+    <div className="about_cont">
     <h1 className="about-heading">About Us</h1>
     <div className="main-container">
       <div className="content_about">
@@ -47,6 +47,7 @@ const App = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
     </>
   );

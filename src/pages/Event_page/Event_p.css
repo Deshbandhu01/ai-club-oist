@@ -1,7 +1,15 @@
 /* General styles for the resources section */
+
+
+.ki{
+  /* padding-top:50px; */
+  background-color: #0f150e;
+  padding-top:100px;
+  margin-top:-100px
+}
 .event-section {
     padding: 20px;
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
     width:100%;
     margin: 10px auto;
     /* margin-top:100px; */
@@ -12,15 +20,15 @@
   .event-title {
     font-size: 28px;
     font-weight: bold;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     /* margin: 10px auto; */
   }
 
   .link_name{
     margin-top:20px;
     /* background-color: #28a745; */
-    color:grey;
-    background-color: aquamarine;
+    /* color:grey; */
+    /* background-color: aquamarine; */
     display:inline-block;
     padding:5px;
     border-radius: 0px 15px 15px 0px  ; 
@@ -30,8 +38,8 @@
   
   .event-subtitle {
     font-size: 18px;
-    color: #555;
-    margin-bottom: 20px;
+    /* color: #555; */
+    /* margin-bottom: 20px; */
   }
   
   /* Grid container to hold 
@@ -49,7 +57,7 @@
   
   /* Individual resource card */
   .event-item {
-    background-color: #fff;
+    /* background-color: #fff; */
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     overflow: hidden;

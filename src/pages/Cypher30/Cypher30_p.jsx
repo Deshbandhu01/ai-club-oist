@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 function Cypher30_p() {
   return (
     <>
+    <div className="ki">
     <div className="link_name">/ Cypher30_3.0</div>
     <div className="container_cyp">
       <div className="cont_cypher">
@@ -50,6 +51,7 @@ function Cypher30_p() {
         <img src={asset.Cypher_30_win} alt="Cypher 30 Challenge" className='Cypher30_1' />
       </div>
       </div>
+    </div>
     </div>
     </>
   );

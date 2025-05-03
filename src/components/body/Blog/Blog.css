@@ -41,10 +41,11 @@ body {
 }
 
 .blog-section {
-    width: 96%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     padding: 40px 0;
+    background-color: #0f150e;
 }
 
 .blog-section h2 {
@@ -67,8 +68,7 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: left;
-    transition: transform 0.3s ease-in-out;
-    background-color:rgba(27, 35, 189, 0.2);
+    transition: transform 0.3s ease-in-out;    background-color: #112b2b;
 }
 
 .blog-card img {
@@ -79,13 +79,14 @@ body {
 
 .blog-card h3 {
     font-size: 1.5rem;
-    margin-top: 15px;
-    color: #1f2937;
+    margin-top: 15px;    
+    color:#00ffc6;
 }
 
-.blog-card p {
-    color: #6b7280;
+.blog-card p {  
+    color:#e0f7fa;
     margin: 10px 0;
+    font-weight: 700;
 }
 
 .read-more {

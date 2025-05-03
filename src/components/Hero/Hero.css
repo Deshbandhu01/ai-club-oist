@@ -3,13 +3,17 @@
     justify-content: center;
     text-align:center;
     align-items: center;
-
+    z-index: 1;
+    background-color: transparent;
 }
+
 
 .Home_container{
     width:100vw;
     height:100vh;
     /* padding-top:150px; */
+    z-index: 1;
+    background-color: transparent;
 }
 
 .fig{
@@ -21,21 +25,69 @@
     /* position:relative; */
     margin:auto;
     /* left:5%; */
+    z-index: 1;
+    background-color: transparent;
 
 }
 .fig h1{
     color:rgb(125, 211, 98);
     font-size:5vmin;
+    background-color: transparent;
 }
 
 .fig p{
     color:rgb(185, 186, 186);
     font-size:3vmin;
+    background-color: transparent;
+}
+
+.fig b{
+    background-color: transparent;
 }
 .box{
     width:70vw;
     height:81vh;
     margin:auto;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+
+}
+.box p{
+    color:black;
+    font-weight: bolder;
+    margin-top: 30vh;
+    background-color: transparent;
+}
+
+.slogan{
+    height:30vh;
+    margin: auto;
+    width: 50vw;;
+    background-color: transparent;
+}
+.slogan p{
+    
+    font-size: 1.5rem;
+}
+
+.butt11{
+    display: flex;
+    gap:50px;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.btnj{
+    width:max-content;
+    font-size: 1.4rem;
+    margin-top: 40px;
 }
 
 @media screen and (max-width: 768px) {
@@ -81,6 +133,17 @@
     .box{
         height:70vh;
         width:100vw;
+    }
+    .box p{
+        font-size: 1.2rem;
+        margin: auto;
+    }
+    .btnj{
+        /* width:30%; */
+        font-size: 1.4rem;
+        margin-top: 40px;
+        /* height: max-content; */
+        width: max-content;
     }
 }
   

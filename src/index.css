@@ -1,5 +1,9 @@
 *{
     background-color: transparent;
+    /* background-color: aqua; */
+    /* background-color: #0f150e; */
+    z-index:10;
+    
 }
 /* Ensure no global styles interfere */
 * {

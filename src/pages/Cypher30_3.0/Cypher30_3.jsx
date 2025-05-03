@@ -9,8 +9,8 @@ function Cypher30_3() {
 
   const solutions = [
     {
-      text: '💥Hot💥 👉 Week 3 → (Solutions are live)',
-      link: 'Solution_of_cypher30_Week_3_questions.pdf',
+      text: '💥Hot💥 👉 Week 4 → (Solutions are live)',
+      link: 'Solution_of_cypher30_Week_4_questions .pdf',
       comingSoon: false,
     },
     {
@@ -24,9 +24,9 @@ function Cypher30_3() {
       comingSoon: false,
     },
     {
-      text: '👉 Week 4 → (Coming soon!)',
-      link: '#',
-      comingSoon: true,
+      text: '👉 Week 3 → (Solutions are live)',
+      link: 'Solution_of_cypher30_Week_3_questions.pdf',
+      comingSoon: false,
     },
     {
       text: '👉 Week 5 → (Coming soon!)',
@@ -43,7 +43,7 @@ function Cypher30_3() {
 
     // Leaderboard state
     const [players, setPlayers] = useState([
-      { name: 'Sneha Gupta', score: 120 , Branch:'CSE-Aiml',Year:'3rd' ,College:'OIST'},
+      { name: 'Sneha Gupta', score: 120 , Branch:'CSE',Year:'3rd' ,College:'OIST'},
       { name: 'Vidhika Thakre', score: 120 , Branch:'CSE-Aiml',Year:'2nd' ,College:'OIST '},
       { name: 'Punit Punde', score: 120 , Branch:'CSE-Aiml',Year:'3rd' ,College:'OIST'},
       { name: 'Kunal Jamne', score: 120 , Branch:'CSE-Aiml',Year:'3rd' ,College:'OIST '},
@@ -86,6 +86,7 @@ function Cypher30_3() {
 
   return (
     <>
+    <div className="ki">
       <div className="link_name">/ Latest</div>
       <div className="container_cyp">
         <div className="cont_cypher">
@@ -199,6 +200,7 @@ function Cypher30_3() {
           </tbody>
         </table>
         <p>The leaderboard is updated every Wednesday..</p>
+      </div>
       </div>
     </>
   );

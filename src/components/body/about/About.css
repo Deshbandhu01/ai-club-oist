@@ -7,6 +7,10 @@ body {
   justify-content: center;
   align-items: center;
   /* min-height: 100vh; */
+  
+}
+.about_cont{
+  background-color: #0f150e;
 }
 
 .main-container{
@@ -18,20 +22,20 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-bottom:10px;
+  /* margin-bottom:10px; */
 }
 
 /* Main Content Layout */
 .content_about {
-  width:100vw;
+  width:92vw;
   display: flex;
   align-items: flex-start; 
   justify-content: space-between;
   /* width: 50vb; */
   /* max-width: 1200px; */
   gap: 50px;
-  /* margin:auto; */
-  margin-top:20px;
+  /* margin-top:20px; */
+  padding:10px
 }
 
 /* Left Section: About AI Club */
@@ -41,12 +45,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start; 
+  background-color: transparent;
 }
 
 /* About Us Heading */
 .about-heading {
   font-size: 3rem;
-  color: #7eb8ed;
+  /* color: #7eb8ed; */
+  color:rgb(253, 137, 4);
   margin-bottom: 20px;
   text-shadow: 0 0 10px rgba(126, 184, 237, 0.8);
   position: relative;
@@ -54,6 +60,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  background-color: transparent;
 }
 
 .about-heading::before {
@@ -72,7 +79,7 @@ body {
 
 .flip-card-inner {
   position: relative;
-  width: 100%;
+  width: 98%;
   height: 100%;
   text-align: center;
   transition: transform 0.8s;
@@ -98,15 +105,19 @@ body {
 
 /* Flip Card Front */
 .flip-card-front {
-  background: #7eb8ed;
-  color: #0a192f;
+  /* background: #7eb8ed; */
+  background-color: #00FFC6;
+  /* color: #0a192f; */
+  color:#0f150e;
   font-weight: bold;
 }
 
 /* Flip Card Back */
 .flip-card-back {
-  background: #102a43;
-  color: #e6f1ff;
+  /* background: #102a43;
+  color: #e6f1ff; */
+  background-color: #102a23;
+  color:#E0FBE2;
   transform: rotateY(180deg);
   text-align: center;
   padding: 20px;
@@ -120,8 +131,11 @@ body {
   margin-top: 15px;
   padding: 10px 20px;
   font-size: 1rem;
-  background-color: #7eb8ed;
-  color: #0a192f;
+  /* background-color: #7eb8ed; */
+  /* color: #0a192f; */
+  background-color: #00FFC6;
+  color:#102a23;
+  box-shadow: 0 0 8px rgba(0,255,198,0.3);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -130,7 +144,9 @@ body {
 }
 
 .contact-btn:hover {
-  background-color: #5a9ed8;
+  /* background-color: #5a9ed8; */
+  background-color: #00b894;
+  color:#ffffff
 }
 
 .features-container {
@@ -144,17 +160,25 @@ body {
 }
 
 .feature-card {
-  background: rgba(27, 35, 189, 0.2);
+  /* background: rgba(27, 35, 189, 0.2); */
+  background-color: #112b2b;
   padding: 15px;
   border-radius: 8px;
   text-align: left;
   font-weight: bold;
   transition: 0.3s;
   border-left: 4px solid #7eb8ed;
-  box-shadow: 0 4px 6px rgba(126, 184, 237, 0.2);
+  /* box-shadow: 0 4px 6px rgba(126, 184, 237, 0.2); */
+  box-shadow: 0 0 8px rgba(0,255,198,0.15);
   width:28vw;
 }
 
+.feature-card h2{
+  color:#00ffc6;
+}
+.feature-card p{
+  color:#e0f7fa
+}
 .feature-card:hover {
   background: #7eb8ed;
   color: #0a192f;

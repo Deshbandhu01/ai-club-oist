@@ -5,6 +5,7 @@ function Mag1() {
   return (
 
     <>
+    <div className="ki">
     <div className="link_name">/ Edge AI 1.O</div>
 
     
@@ -30,7 +31,7 @@ function Mag1() {
         </div>
       </div>
     </div>
-  
+    </div>
     </>
   );
 }

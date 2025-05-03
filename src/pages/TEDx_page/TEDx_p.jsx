@@ -6,6 +6,7 @@ const Tedx_p = () => {
   return (
 
     <>
+    <div className="ki">
       <div className="link_name">/ TEDx 2023 </div>
     
     <div className="tedx-container">
@@ -51,6 +52,7 @@ const Tedx_p = () => {
       <div className="image-container">
         <img src={asset.TEDx_comp} alt="TEDx Oriental Institute of Science and Technology" className='image_tedx_p'/>
       </div>
+    </div>
     </div>
     </div>
     </>

@@ -1,10 +1,24 @@
 /* General styles for the resources section */
+.event-bar h3{
+  color:#00ffc6;
+}
+
+.event-bar p{
+  color:#e0f7fa
+}
+
+.eve-cont{
+  padding:20px;
+  background-color: #0f150e;
+}
 .event-section {
     padding: 20px;
-    background-color: #f9f9f9;
     width:96%;
-    margin: 10px auto;
+    /* padding:10px; */
+    margin:auto;
     /* margin-top:100px; */
+    
+  background-color: #0f150e;
   }
   
   .event-title {
@@ -34,7 +48,7 @@
   
   /* Individual resource card */
   .event-item {
-    background-color: #fff;
+    background-color: #112b2b;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -71,13 +85,23 @@
   /* Resource card information section */
   .event-info {
     padding: 15px;
+    background-color: #112b2b;
+  }
+
+  .event-info h6{
+    color:#00ffc6; 
+  }
+
+  h3{
+     color:#00ffc6; 
   }
   
   .event-title {
     font-size: 20px;
     font-weight: 600;
     margin: 0;
-    color: #333;
+    /* color: #333; */
+    
   }
   
   .event-link {
@@ -92,9 +116,32 @@
     justify-content: center;
     margin:auto;
     /* background-color: transparent; */
+    
   }
+
   .event-bar p{
     margin:10px;
+    /* color:white */
+    font-weight: 700;
+  }
+
+  .ai-tit {
+    font-size: 2.0rem;
+    /* color: #7eb8ed; */
+    color:rgb(253, 137, 4);
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(126, 184, 237, 0.8);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin:auto;
+  }
+  
+  .ai-tit::before {
+    /* content: "🤖"; */
+    font-size: 2.rem;
   }
   
   .ai-tit{
@@ -102,15 +149,14 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    color:blue;
-    background-color: aqua;
-    width:250px;
+    /* color:blue; */
+    color:rgb(253, 137, 4);
+    /* background-color: aqua; */
+    width:100%;
     margin:auto;
     border-radius:20px;
   }
-  .event-item{
-    background-color:rgba(27, 35, 189, 0.2);
-  }
+
 
   
 /* Responsive Design */
@@ -127,7 +173,7 @@
     /* margin-top:15px */
   }
   .event-card{
-    background-color:rgba(27, 35, 189, 0.2);
+    background-color: #112b2b;
   }
   .event-grid{
     display: flex;
