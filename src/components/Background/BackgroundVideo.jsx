@@ -5,6 +5,8 @@ import SplineScene from '../SplineScene/SplineScene';
 
 const BackgroundVideo = () => {
   return (
+    <>
+    <div className="ki">
     <div className="video-container">
       
       <video className="background-video" autoPlay muted loop playsInline>
@@ -12,6 +14,8 @@ const BackgroundVideo = () => {
         Your browser does not support the video tag.
       </video>
     </div>
+    </div>
+    </>
   );
 };
 

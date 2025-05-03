@@ -23,8 +23,11 @@ body {
 
 
 @media (max-width: 900px) {
-
-    body{
-        scroll-behavior: smooth;
+    *{
+        scrollbar-width: none;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
     }
+    
 }
