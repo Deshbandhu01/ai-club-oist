@@ -120,12 +120,19 @@
   .contact-form {
     flex: 1;
     /* min-width: 300px; */
-    padding-left: 20px; /* Space between the sections */
-    background-color: #ffffff; /* White background for contact form */
+     /* Space between the sections */
+    background-color: #0f150e; /* White background for contact form */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow to give form separation */
     
   }
+
+  .contact-form h2{
+    color:rgb(253, 137, 4);
+  }
   
+  .contact-form p{
+    color:white
+  }
   .form-heading {
     font-size: 30px;
     font-weight: bold;
@@ -199,7 +206,7 @@
     }
   
     .contact-form{
-      height:auto;
+      height:110vh;
       width:92vw;
       margin:auto;
     }
@@ -216,8 +223,8 @@
     }
     .cont_us{
       width:100vw;
-      height:60vh;
-      transform: scale(1.00);
+      height:100vh;
+      transform: scale(0.45);
       margin:auto;
     }
     

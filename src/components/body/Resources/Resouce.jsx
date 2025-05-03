@@ -14,7 +14,7 @@ const Resource = () => {
         <p className="section-subtitle">Important Resources</p>              
         </div> 
         <div className="event-item">
-        <Link to="Magazine_1.0">
+        <Link to="events/Magazine_1.0">
           {/* <a href="/events/TEDx" className="event-link"> */}
             <div className="event-card">
               <div className="event-image blog-card">
@@ -33,7 +33,7 @@ const Resource = () => {
         </div>
 
         <div className="event-item">
-        <Link to="Magazine_2.0">
+        <Link to="events/Magazine_2.0">
           {/* <a href="/events/TEDx" className="event-link"> */}
             <div className="event-card">
               <div className="event-image blog-card">

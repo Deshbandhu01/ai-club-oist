@@ -31,10 +31,10 @@ function Mag2() {
 </ul>
 
 <p>📖 Need inspiration? Check out the previous edition:</p>
-<href>https://surl.li/msmqhv</href>
 
+<a href="https://surl.li/msmqhv">Previous Edititon Link</a>
 <p>📝 Submit your work here:</p> 
-<href>https://forms.gle/MAbjBzLnAhuxgt6ZA</href>
+<p><a href="https://forms.gle/MAbjBzLnAhuxgt6ZA">Link</a>(to submit your work)</p>
 
 <p>For any queries, feel free to contact:</p>
 <ul>

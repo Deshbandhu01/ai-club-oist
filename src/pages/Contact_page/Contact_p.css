@@ -20,6 +20,10 @@ body {
     overflow: hidden;
   }
 
+  .cont_us{
+    width:100vw
+  }
+
   .Form_cont{
     width:96vw;
     overflow: hidden;
@@ -148,5 +152,8 @@ body {
       header h1 {
         font-size: 1.5em;
       }
-
+      .cont_us{
+        width:100vw;
+        scale: 2.0;
+      }
   }

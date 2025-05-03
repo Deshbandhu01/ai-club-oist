@@ -47,7 +47,7 @@ const ContactSection = () => {
             <h2 className="form-heading">Say Hi!</h2>
             <p className="form-description">We'd like to talk with you.</p>
             <div className="forms">
-            {/* <iframe src="https://forms.visme.co/formsPlayer/rxw30wp0-untitled-project" className="cont_us"> </iframe> */}
+            <iframe src="https://forms.visme.co/formsPlayer/rxw30wp0-untitled-project" className="cont_us"> </iframe>
             </div>
           </div>
         </div>

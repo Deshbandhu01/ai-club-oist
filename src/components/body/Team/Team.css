@@ -2,12 +2,14 @@
 .team-cont{
   width:100%;
   background-color: #0f150e;
+  height:146vh
 }
 
 .core-team-section {
     padding: 60px 0;
     background-color: #0f150e;
-    width:97%
+    width:97%;
+    height:max-content;
   }
   
   .core-team-container {
@@ -145,6 +147,10 @@
 
   /* Responsive Design */
 @media (max-width: 900px) {
+  .team-cont{
+    height:max-content;
+    padding:50px 0px
+  }
   .core-team-section{
     height:auto;
     width:90vw;
