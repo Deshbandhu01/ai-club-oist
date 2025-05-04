@@ -4,12 +4,12 @@
     font-family: 'Segoe UI', sans-serif;
   }
   
-  .container_magh1 {
-    color: #2a2a72;
+  .container_mag h1{
+    padding:0px 15px;
   }
-  
   .container_mag h2 {
     color: #f94c66;
+     
   }
   
   .container_mag p {
@@ -22,10 +22,8 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
-  }
-  
-  .text-section {
-    width: 55%;
+    padding: 0px 20px;
+    margin:auto;
   }
   
   .text-section p{
@@ -53,3 +51,34 @@
   .download-link:hover {
     background-color: #0056b3;
   }
+
+
+  @media screen and (max-width: 768px) {
+
+    .container_mag{
+        width:90vw;
+        height:auto;
+        padding:0px;
+        margin:auto;
+        /* margin-right:0px; */
+        /* margi */
+        
+        
+    }
+  
+    .content_mag{
+      width:90vw;
+      margin:auto;
+    }
+  
+    .text-section{
+      width:90vw;
+      margin:auto;
+    }
+    .image-section img {
+      width: 90vw;
+      border-radius: 10px;
+    }
+  }
+  
+  

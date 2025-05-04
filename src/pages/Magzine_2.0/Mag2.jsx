@@ -39,9 +39,9 @@ function Mag2() {
 <p>For any queries, feel free to contact:</p>
 <ul>
 <li>📞 Taru Shrivastava:
- ‪(+91) 79877 23815‬</li>
+ ‪(+91) 79877 23815</li>
 <li>📞 Akansha Sinha:
- ‪(+91)7354801809‬</li>
+ ‪(+91) 73548 01809</li>
  </ul>
  <p>
 Let’s make EDGE AI 3.0 bigger and better together! 💡
@@ -62,6 +62,7 @@ Let’s make EDGE AI 3.0 bigger and better together! 💡
           <img src={asset.Edge_ai_2023} alt="Edge AI Magazine" />
         </div>
       </div>
+      
     </div>
     </div>
     </>

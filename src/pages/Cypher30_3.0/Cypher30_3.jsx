@@ -199,7 +199,9 @@ function Cypher30_3() {
             ))}
           </tbody>
         </table>
-        <p>The leaderboard is updated every Wednesday..</p>
+        <div class="slider">
+          <p>The leaderboard is updated every Wednesday..</p>
+        </div>
       </div>
       </div>
     </>

@@ -188,15 +188,27 @@ body {
   color: #0a192f;
   transform: translateY(-5px);
   box-shadow: 0 8px 15px rgba(126, 184, 237, 0.4);
+  transition:all 0.5s ease-in-out
 }
 
 .feature-card:hover p{
-  color:#0a192f
+  color:#0a192f;
+  transition:all 0.4s ease-in-out;
 }
 
 .feature-card:hover h2{
   color:#7a0000;
+  transition:all 0.4s ease-in-out;
 }
+@media (hover: hover) and (pointer: fine) {
+  .button:hover {
+    /* background-color: #555; */
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  }
+}
+
+
   
 /* Responsive Design */
 /* @media (max-width: 900px) {
@@ -309,6 +321,20 @@ body {
     .core-team-card{
       height:auto;
     }
+    .feature-card:active{
+  
+      background: #7c593a;
+      color: #0a192f;
+      transform: translateY(-5px);
+      box-shadow: 0 8px 15px rgba(126, 184, 237, 0.4);
+      transition:all 0.3s ease-in-out
+    }
     
+    .feature-card:active p{
+      color:#0a192f
+    }
     
+    .feature-card:active h2{
+      color:#7a0000;
+    }   
   }
