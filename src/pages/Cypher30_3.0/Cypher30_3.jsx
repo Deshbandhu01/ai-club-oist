@@ -9,7 +9,7 @@ function Cypher30_3() {
 
   const solutions = [
     {
-    text: '💥Hot💥 👉 Week 5 → (Coming soon!)',
+    text: '💥Hot💥 👉 Week 5 → (Solutions are live)',
     link: 'Solution_of_cypher30_Week_5_questions.pdf',
     comingSoon: false,
     },
