@@ -255,6 +255,15 @@ button:hover {
   100% { transform: translateX(-100%);}
 }
 
+.top-30{
+  /* margin-left:20px; */
+  font-size:1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width:90vw
+}
 
 /* Responsive Design */
 

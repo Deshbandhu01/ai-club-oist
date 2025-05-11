@@ -9,9 +9,9 @@ function Cypher30_3() {
 
   const solutions = [
     {
-      text: '💥Hot💥 👉 Week 4 → (Solutions are live)',
-      link: 'Solution_of_cypher30_Week_4_questions .pdf',
-      comingSoon: false,
+    text: '💥Hot💥 👉 Week 5 → (Coming soon!)',
+    link: 'Solution_of_cypher30_Week_5_questions.pdf',
+    comingSoon: false,
     },
     {
       text: '👉 Week 1 → (Solutions are live)',
@@ -29,10 +29,15 @@ function Cypher30_3() {
       comingSoon: false,
     },
     {
-      text: '👉 Week 5 → (Coming soon!)',
-      link: '#',
-      comingSoon: true,
-    }
+      text: '👉 Week 4 → (Solutions are live)',
+      link: 'Solution_of_cypher30_Week_4_questions .pdf',
+      comingSoon: false,
+    },
+    // {
+    //   text: '👉 Week 5 → (Coming soon!)',
+    //   link: '#',
+    //   comingSoon: true,
+    // }
   ];
 
   
@@ -202,6 +207,12 @@ function Cypher30_3() {
         <div class="slider">
           <p>The leaderboard is updated every Wednesday..</p>
         </div>
+
+        <div className="top-30">
+          <h3>💥Hot💥</h3>
+          <h4> To view the list of all the qualified members visit the link -> <a href="Cypher-30 -3.0 -top-30-list.pdf">top-30</a> </h4>
+          
+        </div>
       </div>
       </div>
     </>
@@ -209,3 +220,4 @@ function Cypher30_3() {
 }
 
 export default Cypher30_3;
+
