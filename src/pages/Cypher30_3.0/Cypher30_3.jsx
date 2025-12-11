@@ -210,7 +210,8 @@ function Cypher30_3() {
 
         <div className="top-30">
           <h3>💥Hot💥</h3>
-          <h4> To view the list of all the qualified members visit the link -> <a href="Cypher-30 -3.0 -top-30-list.pdf">top-30</a> </h4>
+          <h4> To view the list of all the qualified members visit the link -: <a href="Cypher-30 -3.0 -top-30-list.pdf">top-30</a> </h4>
+          {/* Here error is occuring due to '>' */}
           
         </div>
       </div>

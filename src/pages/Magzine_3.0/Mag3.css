@@ -1,0 +1,84 @@
+.container_mag {
+    padding: 40px;
+    /* background-color: #f9f9f9; */
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .container_mag h1{
+    padding:0px 15px;
+  }
+  .container_mag h2 {
+    color: #f94c66;
+     
+  }
+  
+  .container_mag p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .content_mag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0px 20px;
+    margin:auto;
+  }
+  
+  .text-section p{
+    color:aliceblue
+  }
+
+  .text-section li{
+    color:#d4dc7c
+  }
+  .image-section img {
+    /* width: 400px; */
+    border-radius: 10px;
+  }
+  
+  .download-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+  }
+  
+  .download-link:hover {
+    background-color: #0056b3;
+  }
+
+
+  @media screen and (max-width: 768px) {
+
+    .container_mag{
+        width:90vw;
+        height:auto;
+        padding:0px;
+        margin:auto;
+        /* margin-right:0px; */
+        /* margi */
+        
+        
+    }
+  
+    .content_mag{
+      width:90vw;
+      margin:auto;
+    }
+  
+    .text-section{
+      width:90vw;
+      margin:auto;
+    }
+    .image-section img {
+      width: 90vw;
+      border-radius: 10px;
+    }
+  }
+  
+  
